@@ -24,9 +24,8 @@ I chose to build out this version because it provides more insights into how tar
 <img src="Design/Tarot_reading_with_AI_chat.png" width="600px">
 
 ## Design for Mobile 
-<img src="Design/Mobile_Design_1.png" width="250px">  <img src="Design/Mobile_Design_2.png" width="250px">
-<img src="Design/Mobile_Design_3.png" width="250px">  <img src="Design/Mobile_Design_4.png" width="250px">
-<img src="Design/Mobile_Design_5.png" width="250px">  <img src="Design/Mobile_Design_6.png" width="250px">
+<img src="Design/Mobile_Design_1.png" width="250px">  <img src="Design/Mobile_Design_2.png" width="250px">  <img src="Design/Mobile_Design_3.png" width="250px">  
+<img src="Design/Mobile_Design_4.png" width="250px">  <img src="Design/Mobile_Design_5.png" width="250px">  <img src="Design/Mobile_Design_6.png" width="250px">
 <img src="Design/Mobile_Design_7.png" width="250px">  <img src="Design/Mobile_Design_with_AI_Chat.png" width="250px">
 
 ## Features (currently building) 
