@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Add custom fonts */
+  --font-playfair: 'Playfair', serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* Add custom colors */
+  --color-gold: oklch(0.924 0.12 95.746);
+  --color-mint-green: oklch(0.925 0.084 155.995);
+  --color-light-purple: oklch(0.827 0.119 306.383);
+  --color-medium-purple: oklch(0.714 0.203 305.504);
+  --color-dark-purple: oklch(0.291 0.149 302.717);
+}

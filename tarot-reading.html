@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Stylesheets for Tailwind and animations -->
+        <link rel="stylesheet" href="./output.css">
+        <link rel="stylesheet" href="animations.css">
+    </head>
+    <body>
+        <!-- Navigation bar -->
+        <div class="nav">
+            <!-- Website icon and name -->
+            <div class="nav-icon">
+                <img src="assets/icons/crystal-ball-icon.png" alt="Tarot card reader icon">
+            </div>
+            <h1> read my tarot </h1>
+            <!-- TODO check this link works -->
+            <p class="nav-link"><a href="/index.html">Home</a></p>
+        </div>
+
+        <!-- Card container --> 
+        <div class="card-container">
+            <div class="card">
+                <img src="assets/cards/1.png" alt="card 1">
+            </div>
+            <div class="card">
+                <img src="assets/cards/2.png" alt="card 2">
+            </div>
+            <div class="card">
+                <img src="assets/cards/3.png" alt="card 3">
+            </div>
+            <!-- TODO should these be inserted dynamically? -->
+        </div>
+
+        <!-- TODO Enable user to select up to 3 cards by clicking on them -->
+        <!-- Draw cards button -->
+        <!-- <button id="draw-cards">Draw 3 Cards</button> -->
+
+
+        <!-- Tarot 3 card reading -->
+        <!-- <div id="reading">
+            <h2>Your Reading</h2>
+            <div id="selected-cards"></div>
+            <p id="reading-text"></p>
+        </div> -->
+
+        <!-- AI Chat -->
+        <!-- <div id="chat-container">
+            <h2>Ask the AI</h2>
+            <input type="text" id="chat-input" placeholder="Ask about your reading">
+            <button id="send-message">Ask</button>
+            <div id="chat-output"></div>
+        </div> -->
+        
+        <script src="script.js"></script>
+        <script src="ai-chat.js"></script>
+    </body>
+</html>
