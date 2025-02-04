@@ -6,12 +6,22 @@ Interactive and responsive tarot card reader website built with HTML, Tailwind C
 Note: The designs are intended to be guidelines so I plan to make changes as I go along because the goal of this project is to become mroe confident with coding in JS and using a popular framework like Tailwind. 
 
 ### Landing page version 1
-<img src="Design/Landing_Page_v1.png" width="500px">
+<img src="Design/Landing_Page_v1.png" width="600px">
 
 ### Landing page version 2 
 I chose to build out this version because it provides more insights into how tarot readings work and guidance for people who are less familiar with how to proceed. 
 
+<img src="Design/Landing_Page_v2.png" width="600px">
+
 ### Tarot reading website pages (including the design for AI chat)
+
+<img src="Design/Tarot_reading_page_1.png" width="600px">
+<img src="Design/Tarot_reading_page_2.png" width="600px">
+<img src="Design/Tarot_reading_page_3.png" width="600px">
+<img src="Design/Tarot_reading_page_4.png" width="600px">
+<img src="Design/Tarot_reading_page_5.png" width="600px">
+<img src="Design/Tarot_reading_with_AI_chat_icon.png" width="600px">
+<img src="Design/Tarot_reading_with_AI_chat.png" width="600px">
 
 ## Design for Mobile 
 
