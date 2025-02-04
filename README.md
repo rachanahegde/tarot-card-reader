@@ -25,6 +25,7 @@ I chose to build out this version because it provides more insights into how tar
 
 ## Design for Mobile 
 
+<img src="Design/Mobile_Design_1.png" width="300px">
 
 
 ## Features (currently building) 
