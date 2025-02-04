@@ -17,10 +17,10 @@ I chose to build out this version because it provides more insights into how tar
 
 
 ## To Do
-~ -	Design in Figma – for phone and desktop~
-~ - Flowchart with decision tree for app features ~
-~ -	Finalise design files ~
-~ -	Finish building home page with HTML and Tailwind for desktop (minimally responsive with flex) ~
+ -	~Design in Figma – for phone and desktop~
+ - ~Flowchart with decision tree for app features~
+ - ~Finalise design files~
+ - ~Finish building home page with HTML and Tailwind for desktop (minimally responsive with flex)~
 
 -	Generate the card art for all the tarot cards and the associated description
 -	Save pathways to card art and descriptions in JSON data file
