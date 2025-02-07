@@ -1,0 +1,557 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "filePath": "../assets/cards/the_fool.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Fool represents new beginnings, spontaneity, and a sense of adventure. It symbolizes stepping into the unknown with a heart full of optimism and curiosity. This card encourages you to embrace opportunities without fear of failure, as every experience holds value. The Fool signifies a leap of faith, urging you to trust your instincts and pursue your passions. It often appears when you're on the brink of a significant change, reminding you that growth comes from taking risks. While the path ahead may be uncertain, The Fool assures you that the universe supports your journey. It encourages living in the present moment, unburdened by past regrets or future anxieties. However, The Fool also warns against recklessness and advises balancing freedom with awareness. This card can represent a fresh start in relationships, careers, or personal development. Ultimately, The Fool invites you to embrace life\u2019s adventure with an open heart and fearless spirit."
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "filePath": "../assets/cards/the_magician.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Magician symbolizes manifestation, power, and the ability to turn ideas into reality. It represents the bridge between the spiritual and physical worlds, harnessing universal energy to create change. When The Magician appears, it signals that you have all the tools and resources needed to achieve your goals. It encourages focus, determination, and confidence in your abilities. This card suggests that now is the perfect time to take action, as your potential for success is high. It highlights the importance of clear intentions and the power of thought in shaping your reality. The Magician also serves as a reminder to stay grounded while pursuing your ambitions. In relationships, it indicates strong connections and the potential for meaningful growth. However, it can also warn against manipulation or deceit if reversed. Ultimately, The Magician urges you to believe in your power to create and transform your life."
+    },
+    {
+      "id": 2,
+      "name": "Ace of Cups",
+      "filePath": "../assets/cards/ace_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ace of Cups signifies new emotional beginnings, overflowing love, and spiritual awakening. It represents the start of a new relationship, friendship, or creative endeavor filled with deep emotional fulfillment. This card symbolizes an open heart, ready to give and receive love unconditionally. It often appears when you are experiencing a surge of positive emotions, compassion, and empathy. The Ace of Cups encourages you to connect with your inner feelings and express them freely. It also highlights the importance of emotional healing and forgiveness, allowing you to move forward with a clear heart. In relationships, it can indicate the blossoming of romance or the deepening of an existing bond. Spiritually, it represents a connection to the divine and a sense of inner peace. The overflowing cup symbolizes abundance, joy, and the potential for emotional growth. Ultimately, the Ace of Cups invites you to embrace love in all its forms and trust in the beauty of your emotions."
+    },
+    {
+      "id": 3,
+      "name": "Three of Swords",
+      "filePath": "../assets/cards/three_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Three of Swords represents heartbreak, sorrow, and emotional pain. It often signifies a period of grief, loss, or betrayal that has deeply affected your heart. This card reflects the sharp sting of disappointment and the need to acknowledge and process your emotions. While painful, the Three of Swords also symbolizes the importance of facing the truth, even when it's difficult. It encourages emotional release as a path to healing and growth. Ignoring or suppressing your feelings can prolong the hurt, but acceptance leads to clarity and resilience. In relationships, it can indicate conflicts, separations, or unresolved issues that require honest communication. However, this card is not solely about despair\u2014it\u2019s about the opportunity for healing after the storm. It reminds you that through heartache, you gain strength, wisdom, and a deeper understanding of yourself. Ultimately, the Three of Swords teaches that pain, though difficult, can be a catalyst for profound personal growth."
+    },
+    {
+      "id": 4,
+      "name": "The High Priestess",
+      "filePath": "../assets/cards/high_priestess.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The High Priestess symbolizes intuition, mystery, and spiritual wisdom. She represents the subconscious mind and the deep, hidden truths that lie beneath the surface. This card encourages you to trust your inner voice and pay attention to your instincts. It often appears when you need to reflect inwardly, seeking answers through meditation or introspection. The High Priestess signifies the power of the unknown and the importance of embracing life\u2019s mysteries. She also represents feminine energy, receptivity, and a connection to the divine. In relationships, this card suggests emotional depth and the need to understand hidden feelings. It can indicate secrets or knowledge yet to be revealed, urging patience and observation. The High Priestess encourages you to explore your spiritual path and seek deeper meaning in your experiences. Ultimately, she reminds you that true wisdom comes from within, and understanding yourself is the key to enlightenment."
+    },
+    {
+      "id": 5,
+      "name": "The Empress",
+      "filePath": "../assets/cards/the_empress.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Empress embodies fertility, abundance, and nurturing energy. She represents the divine feminine, creativity, and the natural world. This card signifies growth, prosperity, and the nurturing of new ideas, relationships, or projects. The Empress encourages you to connect with nature and embrace the cycles of life. She symbolizes comfort, beauty, and the importance of self-care and emotional well-being. In relationships, she reflects love, support, and the nurturing qualities needed to create strong bonds. The Empress also represents motherhood, fertility, and the creation of life in both literal and metaphorical senses. Her presence suggests that you are in a period of growth and abundance, where your efforts will bear fruit. She reminds you to appreciate the beauty in everyday life and to find joy in simple pleasures. Ultimately, The Empress teaches that through love, compassion, and creativity, you can manifest your desires and cultivate a fulfilling life."
+    },
+    {
+      "id": 6,
+      "name": "The Emperor",
+      "filePath": "../assets/cards/the_emperor.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Emperor represents authority, structure, and leadership. He embodies the qualities of stability, discipline, and control, often symbolizing a father figure or mentor. This card signifies the power of logic and organization to achieve goals and create order. The Emperor encourages you to take responsibility for your actions and to lead with confidence. It suggests that success comes through hard work, planning, and a strong sense of purpose. In relationships, The Emperor can indicate a protective, supportive partner or the need to establish healthy boundaries. He also represents the influence of authority figures or institutions in your life. While his energy can be rigid, it provides the foundation needed for growth and stability. This card advises balancing strength with compassion, ensuring that power is used wisely and fairly. Ultimately, The Emperor teaches that true leadership comes from integrity, wisdom, and the ability to inspire others."
+    },
+    {
+      "id": 7,
+      "name": "The Hierophant",
+      "filePath": "../assets/cards/the_hierophant.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Hierophant symbolizes tradition, spiritual wisdom, and conformity. He represents the role of institutions, religious beliefs, and societal norms in shaping your values and identity. This card often appears when you are seeking guidance, mentorship, or a deeper understanding of your spiritual path. The Hierophant encourages learning from established knowledge, rituals, and systems. In relationships, it can signify commitment, shared values, and the importance of moral alignment. This card also highlights the influence of cultural expectations and the need to reflect on how they shape your decisions. While The Hierophant values tradition, he also challenges you to question outdated beliefs and find your own truth. He represents the balance between spiritual guidance and personal growth. This card advises seeking wisdom from trusted sources while staying true to your authentic self. Ultimately, The Hierophant teaches that spiritual enlightenment comes from both external learning and inner reflection."
+    },
+    {
+      "id": 8,
+      "name": "Ace of Pentacles",
+      "filePath": "../assets/cards/ace_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ace of Pentacles symbolizes new beginnings in the material world, such as financial opportunities, career advancements, or investments. It represents prosperity, abundance, and the potential for long-term growth. This card often appears when you are at the start of a venture that promises stability and security. The Ace of Pentacles encourages you to seize opportunities with confidence, as they are likely to bring tangible rewards. It highlights the importance of hard work, dedication, and practical planning to achieve success. In relationships, it can indicate the start of a grounded, supportive partnership. This card also represents physical well-being, health improvements, and the importance of self-care. The Ace of Pentacles reminds you that while opportunities may arise, it is your actions that will determine the outcome. It encourages gratitude for the blessings you receive and mindfulness in managing your resources. Ultimately, this card signifies a period of growth, prosperity, and the manifestation of your goals into reality."
+    },
+    {
+      "id": 9,
+      "name": "Two of Cups",
+      "filePath": "../assets/cards/two_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Two of Cups represents partnership, mutual attraction, and emotional connection. It symbolizes the coming together of two individuals in harmony, often indicating romantic relationships, friendships, or strong alliances. This card signifies balance, equality, and the deep bond formed through shared feelings and respect. It encourages open communication and emotional honesty as the foundation of healthy connections. In a reading, the Two of Cups can indicate the beginning of a meaningful relationship or the strengthening of an existing one. It reflects mutual support, cooperation, and a sense of unity with others. This card also symbolizes reconciliation, healing past conflicts, and finding common ground. While often associated with love, its message extends to any partnership built on trust and emotional harmony. The Two of Cups reminds you of the beauty of connection and the importance of nurturing relationships. Ultimately, it teaches that true partnership is rooted in respect, empathy, and shared purpose."
+    },
+    {
+      "id": 10,
+      "name": "Seven of Wands",
+      "filePath": "../assets/cards/seven_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Seven of Wands symbolizes perseverance, courage, and standing your ground. It represents facing challenges with determination and defending your beliefs, even in the face of opposition. This card encourages you to hold firm to your values, despite external pressures or competition. It often appears when you are in a position where you must assert yourself and protect what you've achieved. The Seven of Wands reflects the resilience required to overcome obstacles and maintain your personal power. In relationships, it can indicate the need to establish boundaries and advocate for your needs. This card also speaks to the inner strength required to confront adversity without backing down. While the struggle may be intense, it suggests that you have the skills and determination to succeed. The Seven of Wands reminds you that true growth comes from facing difficulties head-on. Ultimately, it teaches that courage, confidence, and persistence are the keys to victory."
+    },
+    {
+      "id": 11,
+      "name": "Ten of Swords",
+      "filePath": "../assets/cards/ten_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ten of Swords represents endings, betrayal, and the experience of hitting rock bottom. It symbolizes the painful conclusion of a difficult situation, often accompanied by feelings of loss or defeat. While this card may seem harsh, it also signifies the release that comes after enduring hardship. It encourages you to acknowledge the pain, accept the reality of the situation, and begin the process of healing. The Ten of Swords suggests that the worst is behind you, and from this low point, the only way forward is up. In relationships, it may indicate a breakup, betrayal, or the end of a toxic connection. However, this card also serves as a reminder that endings create space for new beginnings. It speaks to the resilience of the human spirit, emphasizing that recovery and renewal are possible. While it reflects difficult times, it also holds the promise of transformation and growth. Ultimately, the Ten of Swords teaches that from the ashes of defeat, you can rise stronger and wiser."
+    },
+    {
+      "id": 12,
+      "name": "King of Pentacles",
+      "filePath": "../assets/cards/king_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The King of Pentacles symbolizes success, financial stability, and material abundance. He represents a person who has achieved prosperity through hard work, discipline, and practical decision-making. This card reflects strong leadership, reliability, and the ability to create lasting security. It encourages you to take a grounded, responsible approach to your goals and resources. In a reading, the King of Pentacles can indicate a mentor or authority figure who offers wise guidance in business or finance. It also suggests that you possess the skills needed to build wealth and maintain a stable foundation. In relationships, this card reflects loyalty, commitment, and a nurturing, protective energy. The King of Pentacles values tradition, consistency, and long-term success. He reminds you that true wealth is not just financial but also found in the stability of your relationships and personal growth. Ultimately, this card teaches that through discipline, patience, and hard work, you can achieve lasting success and fulfillment."
+    },
+    {
+      "id": 13,
+      "name": "Queen of Cups",
+      "filePath": "../assets/cards/queen_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Queen of Cups embodies emotional intelligence, compassion, and intuition. She represents a nurturing, empathetic figure who is deeply connected to her emotions and the feelings of others. This card encourages you to trust your intuition and approach situations with sensitivity and understanding. The Queen of Cups signifies emotional maturity and the ability to create a safe, supportive space for yourself and others. In relationships, she reflects unconditional love, kindness, and a deep emotional connection. She also symbolizes creativity, spiritual insight, and the ability to heal through emotional support. This card reminds you to honor your feelings and maintain emotional balance, even in challenging situations. It can indicate the presence of a caring, intuitive person in your life or suggest that you embody these qualities. The Queen of Cups teaches the importance of empathy, self-care, and emotional openness. Ultimately, she reminds you that true strength comes from vulnerability, compassion, and a deep connection to your inner self."
+    },
+    {
+      "id": 14,
+      "name": "Knight of Wands",
+      "filePath": "../assets/cards/knight_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Knight of Wands symbolizes passion, adventure, and bold action. He represents a dynamic and enthusiastic energy that drives you to pursue your goals with confidence and courage. This card encourages you to embrace opportunities with a fearless, can-do attitude. It often appears when you are ready to embark on an exciting journey or take a risk that leads to growth. The Knight of Wands thrives on new experiences, innovation, and the thrill of the unknown. In relationships, he reflects intense attraction, spontaneity, and a desire for adventure. While his energy is inspiring, it can also be impulsive, so it\u2019s important to balance enthusiasm with thoughtfulness. This card suggests that you are in a period of high motivation and should seize the moment to act. The Knight of Wands reminds you to trust in your abilities and pursue your passions wholeheartedly. Ultimately, he teaches that boldness, determination, and a zest for life are key to achieving success."
+    },
+    {
+      "id": 15,
+      "name": "Page of Swords",
+      "filePath": "../assets/cards/page_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Page of Swords represents curiosity, intellectual exploration, and a thirst for knowledge. This card symbolizes youthful energy, quick thinking, and the desire to seek out new information. It encourages you to ask questions, analyze situations, and remain open to learning. The Page of Swords often appears when you are embarking on a new mental or academic pursuit. In relationships, it reflects honest communication, sharp wit, and a desire to understand others deeply. This card also suggests vigilance and the need to stay alert to new ideas or potential challenges. While the Page of Swords thrives on mental stimulation, it can also indicate restlessness or a tendency to overthink. It advises balancing curiosity with discernment and ensuring that your words are thoughtful and kind. The Page of Swords reminds you that growth comes from embracing new perspectives and remaining intellectually agile. Ultimately, this card teaches that knowledge, clarity, and open-mindedness are powerful tools for personal development."
+    },
+    {
+      "id": 16,
+      "name": "Nine of Cups",
+      "filePath": "../assets/cards/nine_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Nine of Cups is often referred to as the 'wish card,' symbolizing emotional fulfillment, satisfaction, and contentment. It represents the joy that comes from achieving your desires and feeling grateful for the abundance in your life. This card reflects personal happiness, inner peace, and the pleasure of enjoying the fruits of your labor. It encourages you to appreciate your accomplishments and recognize the emotional wealth you\u2019ve cultivated. In relationships, the Nine of Cups signifies harmony, emotional security, and deep personal connections. This card also highlights the importance of self-love and the ability to find happiness within yourself. While it represents contentment, it reminds you not to become complacent or overly focused on material pleasures. The Nine of Cups encourages you to continue nurturing your emotional well-being and personal growth. It suggests that your wishes are within reach, and you have the power to create a life filled with joy. Ultimately, this card teaches that true happiness comes from gratitude, emotional balance, and a sense of inner fulfillment."
+    },
+    {
+      "id": 17,
+      "name": "Six of Pentacles",
+      "filePath": "../assets/cards/six_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Six of Pentacles symbolizes generosity, sharing, and the balance of giving and receiving. It represents acts of kindness, charity, and support, both in material and emotional forms. This card encourages you to be open to helping others when you are able and to graciously accept assistance when needed. It often appears when you are in a position to give back or when you may benefit from the generosity of others. The Six of Pentacles reflects the importance of fairness, reciprocity, and maintaining balance in relationships. In financial matters, it can indicate stability and the ability to manage resources wisely. This card also reminds you to be mindful of power dynamics, ensuring that giving comes from a place of compassion rather than control. It suggests that acts of kindness create a positive flow of energy in your life and the lives of others. The Six of Pentacles teaches that true abundance is found not only in wealth but in the connections and support we share with others. Ultimately, this card reflects the beauty of generosity, gratitude, and the cycles of giving and receiving in life."
+    },
+    {
+      "id": 18,
+      "name": "Judgement",
+      "filePath": "../assets/cards/judgement.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "Judgement represents self-reflection, awakening, and the call to evaluate your past actions and choices. It symbolizes a period of transformation, where you are encouraged to take stock of your life and seek personal growth. This card often appears when you are on the brink of a significant change or a moment of clarity. Judgement calls for honesty, forgiveness, and the courage to face your past without judgment or regret. It encourages you to release old burdens, learn from your experiences, and embrace a new chapter with a clear conscience. In relationships, it can indicate reconciliation, healing, and the opportunity to make amends. Judgement also represents spiritual awakening, the recognition of your higher purpose, and a deeper understanding of your path. This card advises listening to your inner voice and trusting the wisdom that comes from self-awareness. It suggests that you are ready to rise above past mistakes and embrace your true potential. Ultimately, Judgement teaches that through reflection, acceptance, and growth, you can experience renewal and transformation."
+    },
+    {
+      "id": 19,
+      "name": "The Star",
+      "filePath": "../assets/cards/the_star.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Star represents hope, inspiration, and spiritual renewal. It symbolizes a sense of peace, clarity, and a renewed belief in yourself and the universe. This card often appears after a period of struggle, signifying healing, recovery, and the promise of brighter days ahead. The Star encourages you to remain optimistic, as your dreams are within reach if you stay true to your purpose. In relationships, it reflects harmony, emotional connection, and the potential for deep spiritual bonds. This card also represents creativity, intuition, and the flow of universal energy through your life. The Star invites you to trust in the natural cycles of life and to embrace your authentic self. It suggests that you are on the right path, guided by your inner light and higher wisdom. The Star teaches that even in times of darkness, hope is a powerful force that can guide you forward. Ultimately, this card reflects inspiration, faith, and the endless possibilities that come from believing in yourself and the universe."
+    },
+    {
+      "id": 20,
+      "name": "The Moon",
+      "filePath": "../assets/cards/the_moon.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Moon symbolizes illusion, intuition, and the subconscious mind. It represents the mysteries that lie beneath the surface, hidden truths, and the power of dreams and emotions. This card often appears when you are facing uncertainty or confusion, urging you to trust your intuition. The Moon encourages you to explore your inner world, acknowledging both your fears and your desires. In relationships, it can indicate emotional complexity, hidden feelings, or misunderstandings that need clarity. The Moon also represents the cyclical nature of life, with its phases reflecting growth, change, and renewal. While it warns of deception or illusions, it also highlights the importance of self-reflection and inner wisdom. This card advises patience and careful observation, as not everything is as it seems. The Moon teaches that embracing your intuition and facing your fears can lead to profound personal growth. Ultimately, it reflects the beauty and mystery of the subconscious, guiding you toward greater self-awareness and clarity."
+    },
+    {
+      "id": 21,
+      "name": "The Sun",
+      "filePath": "../assets/cards/the_sun.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Sun symbolizes joy, success, and positivity. It represents the light of clarity, happiness, and the fulfillment that comes from embracing your true self. This card often appears when you are experiencing personal growth, confidence, and a sense of purpose. The Sun encourages you to celebrate your achievements and to share your light with the world. In relationships, it reflects warmth, harmony, and genuine connection. This card also signifies vitality, good health, and the energy needed to pursue your passions. The Sun teaches that optimism and a positive mindset can overcome obstacles and attract abundance. It reminds you to live with authenticity, express gratitude, and find joy in the present moment. The Sun encourages you to shine brightly, inspiring others with your enthusiasm and confidence. Ultimately, this card reflects the boundless potential that comes from embracing life with an open heart and a radiant spirit."
+    },
+    {
+      "id": 22,
+      "name": "The World",
+      "filePath": "../assets/cards/the_world.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The World represents completion, fulfillment, and the achievement of goals. It symbolizes the successful conclusion of a journey, the realization of dreams, and the sense of wholeness that comes with personal growth. This card often appears when you have reached a milestone or are about to experience a significant life transition. The World encourages you to reflect on your accomplishments and to appreciate the lessons learned along the way. In relationships, it reflects harmony, unity, and the deep connection that comes from shared experiences. This card also signifies global awareness, travel, and the interconnectedness of all things. The World teaches that true success comes from balance, integration, and embracing your place in the larger picture. It invites you to celebrate your journey while remaining open to new opportunities for growth. The World reminds you that every ending is also a beginning, filled with potential and promise. Ultimately, this card reflects the joy of completion, the beauty of life's cycles, and the infinite possibilities that lie ahead."
+    },
+    {
+      "id": 23,
+      "name": "The Tower",
+      "filePath": "../assets/cards/the_tower.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Tower symbolizes sudden change, upheaval, and the breakdown of old structures. It represents a dramatic shift that may feel disruptive but ultimately clears the way for growth and transformation. This card often appears when you are facing unexpected events that challenge your beliefs or force you to reevaluate your life. The Tower encourages you to let go of what no longer serves you, even if the process feels difficult or painful. In relationships, it can indicate a sudden realization, conflict, or the need to rebuild on a stronger foundation. While The Tower represents chaos, it also signifies liberation from limiting patterns and illusions. This card teaches that true growth often comes from facing challenges head-on and embracing the lessons they bring. It advises resilience, adaptability, and the courage to rise from the ashes of old experiences. The Tower reminds you that destruction can be a necessary part of creation, clearing the path for new opportunities. Ultimately, this card reflects the transformative power of change, the strength found in vulnerability, and the potential for rebirth and renewal."
+    },
+    {
+      "id": 24,
+      "name": "Strength",
+      "filePath": "../assets/cards/strength.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "Strength represents courage, inner power, and the ability to overcome obstacles through resilience and compassion. It symbolizes the balance between physical strength and emotional fortitude, encouraging you to face challenges with grace and patience. This card often appears when you are called to show perseverance and maintain self-control in difficult situations. Strength teaches that true power comes from within, rooted in confidence, determination, and kindness. In relationships, it reflects loyalty, support, and the ability to navigate conflicts with empathy and understanding. This card also signifies the importance of taming your inner fears and trusting in your ability to handle adversity. Strength encourages you to remain grounded, even when circumstances feel overwhelming, reminding you of your resilience. It advises using gentle persuasion rather than force to achieve your goals, emphasizing the value of patience and diplomacy. Strength reminds you that challenges are opportunities for growth, teaching you to harness your inner courage. Ultimately, this card reflects the profound power of compassion, self-belief, and the unwavering spirit that lies within you."
+    },
+    {
+      "id": 25,
+      "name": "Temperance",
+      "filePath": "../assets/cards/temperance.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "Temperance symbolizes balance, harmony, and moderation. It represents the blending of opposites, the integration of different aspects of life, and the pursuit of inner peace. This card often appears when you are seeking equilibrium, encouraging patience and the careful consideration of your choices. Temperance teaches the importance of finding middle ground, avoiding extremes, and maintaining emotional stability. In relationships, it reflects healthy dynamics, mutual understanding, and the ability to work together harmoniously. This card also signifies spiritual growth, the flow of universal energy, and the alignment of mind, body, and spirit. Temperance encourages you to trust in the natural rhythms of life, knowing that balance comes through mindfulness and self-awareness. It advises you to approach situations with calmness, adaptability, and a focus on long-term goals. Temperance reminds you that personal growth is a continuous process, shaped by reflection, patience, and intentional actions. Ultimately, this card reflects the beauty of balance, the power of moderation, and the transformative potential of inner harmony."
+    },
+    {
+      "id": 26,
+      "name": "The Hanged Man",
+      "filePath": "../assets/cards/the_hanged_man.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Hanged Man symbolizes surrender, letting go, and seeing things from a new perspective. It represents a period of pause, reflection, and the need to release old patterns or beliefs that no longer serve you. This card often appears when you are in a state of limbo, encouraging you to embrace stillness and trust in the process of transformation. The Hanged Man teaches that growth comes from shifting your viewpoint, finding wisdom in unexpected places, and accepting what you cannot control. In relationships, it reflects the need for patience, understanding, and the willingness to see things from another's perspective. This card also signifies sacrifice, not as loss, but as a necessary step for personal or spiritual development. The Hanged Man encourages you to let go of resistance and trust in the flow of life, even when the path feels uncertain. It advises you to find meaning in the present moment and to embrace the lessons that come from surrender. The Hanged Man reminds you that sometimes, progress is found in stillness, and clarity arises when you release attachment. Ultimately, this card reflects the power of perspective, the wisdom of patience, and the transformative potential of letting go."
+    },
+    {
+      "id": 27,
+      "name": "Death",
+      "filePath": "../assets/cards/death.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "Death symbolizes transformation, endings, and new beginnings. It represents the natural cycles of life, where one chapter closes to make way for another. This card often appears during periods of significant change, encouraging you to embrace the process of letting go. Death teaches that endings are not to be feared but seen as opportunities for growth, renewal, and evolution. In relationships, it can indicate transitions, the release of old patterns, or the transformation of dynamics. This card also signifies personal rebirth, shedding the past to emerge stronger and more authentic. Death encourages you to face change with courage, recognizing that transformation is essential for progress. It advises acceptance, adaptability, and trust in the cyclical nature of life\u2019s experiences. Death reminds you that while change can be challenging, it also brings new possibilities and fresh perspectives. Ultimately, this card reflects the beauty of transformation, the power of release, and the promise of renewal."
+    },
+    {
+      "id": 28,
+      "name": "Wheel of Fortune",
+      "filePath": "../assets/cards/wheel_of_fortune.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Wheel of Fortune symbolizes cycles, destiny, and the ever-changing nature of life. It represents the ups and downs that are part of the human experience, reminding you that change is inevitable. This card often appears when you are at a turning point, signaling shifts in fortune, opportunities, or unexpected events. The Wheel of Fortune teaches that while you cannot control external circumstances, you can choose how you respond to them. In relationships, it reflects the dynamic nature of connections, the influence of fate, and the lessons learned through change. This card also signifies karma, life\u2019s rhythms, and the interconnectedness of all things. The Wheel of Fortune encourages adaptability, openness to new experiences, and trust in the flow of life. It advises embracing change with optimism, recognizing that even challenges can lead to growth. The Wheel of Fortune reminds you that life is a series of cycles, and every moment holds the potential for transformation. Ultimately, this card reflects the power of fate, the beauty of life\u2019s unpredictability, and the wisdom found in embracing the journey."
+    },
+    {
+      "id": 29,
+      "name": "Justice",
+      "filePath": "../assets/cards/justice.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "Justice symbolizes fairness, truth, and the law. It represents the need for balance, integrity, and accountability in your actions and decisions. This card often appears when you are facing ethical dilemmas, legal matters, or the consequences of past choices. Justice teaches that honesty, objectivity, and moral clarity are essential for making sound judgments. In relationships, it reflects the importance of fairness, mutual respect, and open communication. This card also signifies the universal principle of cause and effect, reminding you that your actions have lasting impacts. Justice encourages self-reflection, asking you to consider whether you are living in alignment with your values. It advises taking responsibility for your actions and striving for fairness in all aspects of life. Justice reminds you that truth has power, and acting with integrity leads to long-term harmony. Ultimately, this card reflects the pursuit of truth, the importance of accountability, and the balance that comes from living with integrity."
+    },
+    {
+      "id": 30,
+      "name": "The Lovers",
+      "filePath": "../assets/cards/the_lovers.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Lovers symbolizes love, relationships, and choices. It represents the deep emotional connections that form between people, as well as the harmony and balance within oneself. This card often appears when you are facing decisions that require alignment with your core values and beliefs. The Lovers teaches the importance of honest communication, vulnerability, and authenticity in relationships. In romantic contexts, it reflects passion, commitment, and the beauty of deep emotional bonds. This card also signifies personal growth through self-love, self-acceptance, and inner harmony. The Lovers encourages you to follow your heart while considering the long-term consequences of your choices. It advises you to embrace relationships that support your growth and to let go of those that no longer serve you. The Lovers reminds you that love is both a feeling and a conscious choice, requiring trust, respect, and open-heartedness. Ultimately, this card reflects the transformative power of love, the significance of meaningful connections, and the importance of living in alignment with your true self."
+    },
+    {
+      "id": 31,
+      "name": "The Devil",
+      "filePath": "../assets/cards/the_devil.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Devil symbolizes temptation, materialism, and the shadow self. It represents the chains that bind you to unhealthy habits, toxic relationships, or limiting beliefs. This card often appears when you feel trapped by fear, addiction, or attachments that no longer serve your highest good. The Devil teaches that these chains are often self-imposed and that awareness is the first step toward liberation. In relationships, it can reflect codependency, obsession, or power imbalances that require honest reflection. This card also signifies the darker aspects of the human psyche, encouraging you to confront and integrate your shadow self. The Devil advises you to examine what holds you back, to question illusions, and to reclaim your personal power. It reminds you that freedom comes from self-awareness, accountability, and the courage to face your fears. The Devil teaches that while darkness exists, it is not permanent, and you have the strength to break free from negative patterns. Ultimately, this card reflects the journey of self-discovery, the importance of personal empowerment, and the transformative potential of facing your inner shadows."
+    },
+    {
+      "id": 32,
+      "name": "The Hermit",
+      "filePath": "../assets/cards/the_hermit.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Hermit symbolizes introspection, solitude, and the search for inner wisdom. It represents the need to withdraw from external distractions and reflect on your inner truths. This card often appears when you are in a phase of self-discovery, seeking clarity, purpose, or spiritual growth. The Hermit teaches that solitude is not isolation but an opportunity for deep reflection and personal insight. In relationships, it can indicate the need for space, self-reflection, or the importance of individual growth within partnerships. This card also signifies the role of the wise mentor, guiding others through shared experiences and knowledge. The Hermit encourages you to trust your inner guidance, to embrace quiet moments, and to find wisdom in stillness. It advises you to seek answers within, rather than relying solely on external validation. The Hermit reminds you that the journey inward can be transformative, leading to profound self-awareness and enlightenment. Ultimately, this card reflects the beauty of solitude, the power of introspection, and the timeless quest for personal truth."
+    },
+    {
+      "id": 33,
+      "name": "The Chariot",
+      "filePath": "../assets/cards/the_chariot.jpeg",
+      "suit": "Major Arcana",
+      "interpretation": "The Chariot symbolizes determination, willpower, and the triumph of control over adversity. It represents the ability to harness opposing forces and direct them toward a common goal. This card often appears when you are facing challenges that require focus, discipline, and strong leadership. The Chariot teaches that success comes from self-confidence, perseverance, and a clear sense of direction. In relationships, it reflects the balance of dynamics, the need for mutual respect, and the ability to move forward together. This card also signifies ambition, travel, and the pursuit of personal goals with unwavering determination. The Chariot encourages you to stay committed to your path, to overcome obstacles with resilience, and to trust in your abilities. It advises you to remain focused on your objectives, using both logic and intuition to guide your decisions. The Chariot reminds you that while external forces may challenge you, your inner strength will determine your success. Ultimately, this card reflects the power of determination, the importance of self-mastery, and the victory that comes from perseverance."
+    },
+    {
+      "id": 34,
+      "name": "Five of Cups",
+      "filePath": "../assets/cards/five_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Five of Cups symbolizes grief, loss, and emotional setbacks. It represents a period of mourning or disappointment, often focusing on what has gone wrong rather than what remains. This card often appears when you are struggling to move on from a painful experience, such as heartbreak, failure, or regret. The Five of Cups teaches that while it's natural to grieve, it's equally important to recognize the blessings still present in your life. In relationships, it may indicate emotional distance, unresolved conflicts, or feelings of abandonment. This card encourages reflection on past experiences, learning from mistakes, and finding closure. It advises you to shift your focus from loss to healing, acknowledging your emotions without letting them define you. The Five of Cups reminds you that setbacks are temporary and that hope can be found in new beginnings. It teaches resilience, the power of acceptance, and the importance of gratitude for what remains. Ultimately, this card reflects the process of emotional recovery, personal growth, and the journey from grief to renewal."
+    },
+    {
+      "id": 35,
+      "name": "Eight of Wands",
+      "filePath": "../assets/cards/eight_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Eight of Wands symbolizes swift action, progress, and rapid movement toward a goal. It represents momentum, quick decisions, and the unfolding of events at an accelerated pace. This card often appears when you are on the brink of significant change, with opportunities emerging quickly. The Eight of Wands teaches the importance of adaptability, focus, and seizing the moment when opportunities arise. In relationships, it may indicate a whirlwind romance, rapid communication, or the resolution of conflicts. This card encourages you to stay organized and clear in your intentions as things move forward rapidly. It advises you to trust the process, embrace change, and maintain a sense of direction amid the fast pace. The Eight of Wands reminds you that while speed is important, clarity and purpose ensure success. It teaches that momentum can be a powerful force, propelling you toward your goals with determination and focus. Ultimately, this card reflects dynamic progress, the excitement of new developments, and the energy of forward motion."
+    },
+    {
+      "id": 36,
+      "name": "Four of Swords",
+      "filePath": "../assets/cards/four_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Four of Swords symbolizes rest, recovery, and the need for introspection. It represents a period of pause, where retreat and reflection are necessary to regain clarity and strength. This card often appears after a time of stress, conflict, or emotional upheaval, signaling the need for healing. The Four of Swords teaches the importance of mental rest, self-care, and spiritual rejuvenation. In relationships, it may indicate a break, time apart for reflection, or the need for emotional space. This card encourages solitude, meditation, and the quiet contemplation of your life\u2019s direction. It advises you to step back, recharge, and gain perspective before making important decisions. The Four of Swords reminds you that rest is not a sign of weakness but a vital part of growth and renewal. It teaches that stillness can provide the clarity needed to navigate challenges with wisdom and calmness. Ultimately, this card reflects the power of rest, the value of inner peace, and the strength found in moments of quiet reflection."
+    },
+    {
+      "id": 37,
+      "name": "Nine of Swords",
+      "filePath": "../assets/cards/nine_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Nine of Swords symbolizes anxiety, worry, and mental anguish. It represents sleepless nights, overthinking, and the burden of unresolved fears or guilt. This card often appears when you are consumed by negative thoughts, unable to find peace of mind. The Nine of Swords teaches the importance of addressing your fears head-on, rather than allowing them to spiral out of control. In relationships, it may indicate emotional distress, communication breakdowns, or feelings of insecurity. This card encourages self-compassion, seeking support, and understanding that anxiety often distorts reality. It advises you to identify the root causes of your worries and to take proactive steps to alleviate them. The Nine of Swords reminds you that while fear is natural, it does not have to define your reality. It teaches that healing begins with acknowledging your emotions, seeking clarity, and reframing negative thoughts. Ultimately, this card reflects the journey from mental turmoil to emotional resilience, highlighting the importance of self-awareness and healing."
+    },
+    {
+      "id": 38,
+      "name": "Ten of Pentacles",
+      "filePath": "../assets/cards/ten_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ten of Pentacles symbolizes wealth, legacy, and long-term stability. It represents financial security, family connections, and the successful culmination of efforts over time. This card often appears when you are experiencing abundance, both materially and emotionally, within your community or family. The Ten of Pentacles teaches the value of tradition, the importance of building a solid foundation, and the joy of shared prosperity. In relationships, it reflects strong family bonds, generational ties, and the creation of lasting legacies. This card encourages planning for the future, investing in long-term goals, and honoring your heritage. It advises you to appreciate the stability you have cultivated while considering how to sustain it for future generations. The Ten of Pentacles reminds you that true wealth extends beyond material possessions, encompassing love, community, and wisdom. It teaches that success is not just personal but often shared with those who support and inspire you. Ultimately, this card reflects fulfillment, security, and the lasting impact of your efforts on both your life and the lives of others."
+    },
+    {
+      "id": 39,
+      "name": "Three of Pentacles",
+      "filePath": "../assets/cards/three_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Three of Pentacles symbolizes teamwork, collaboration, and skill development. It represents the value of working with others to achieve common goals, combining talents to create something meaningful. This card often appears when you are part of a project that requires cooperation, communication, and shared expertise. The Three of Pentacles teaches that success is often a collective effort, built on the contributions of many individuals. In relationships, it reflects the importance of mutual support, partnership, and the ability to work through challenges together. This card encourages you to recognize the strengths of others and to be open to learning from different perspectives. It advises you to take pride in your work, seek feedback, and continuously strive for improvement. The Three of Pentacles reminds you that growth comes from collaboration, dedication, and a willingness to learn. It teaches that true mastery is not achieved in isolation but through the shared journey of learning and building with others. Ultimately, this card reflects the power of teamwork, the satisfaction of meaningful work, and the joy of contributing to a larger purpose."
+    },
+    {
+      "id": 40,
+      "name": "Seven of Cups",
+      "filePath": "../assets/cards/seven_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Seven of Cups symbolizes choices, illusions, and the challenge of discerning reality from fantasy. It represents the allure of possibilities, the temptation of unrealistic dreams, and the confusion that comes with having too many options. This card often appears when you are faced with important decisions, urging you to look beyond appearances and focus on what truly matters. The Seven of Cups teaches the importance of clarity, grounding, and understanding your true desires before making choices. In relationships, it may indicate emotional confusion, unrealistic expectations, or the need for clear communication. This card encourages self-reflection, helping you identify which options align with your values and long-term goals. It advises you to be mindful of distractions, to avoid wishful thinking, and to remain focused on what is achievable. The Seven of Cups reminds you that while dreams are powerful, they must be grounded in reality to manifest. It teaches that discernment, focus, and self-awareness are key when navigating life\u2019s many possibilities. Ultimately, this card reflects the journey of making wise choices, understanding your priorities, and aligning your actions with your true purpose."
+    },
+    {
+      "id": 41,
+      "name": "Queen of Wands",
+      "filePath": "../assets/cards/queen_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Queen of Wands symbolizes confidence, independence, and magnetic charisma. She represents a dynamic individual who embodies passion, creativity, and the courage to pursue her goals fearlessly. This card often appears when you are being called to embrace your inner strength, assertiveness, and personal power. The Queen of Wands teaches the importance of self-belief, authenticity, and the ability to inspire others through your actions. In relationships, she reflects warmth, loyalty, and a vibrant, supportive presence that uplifts those around her. This card encourages you to take bold steps, express your creativity, and stand tall in your truth. It advises you to trust your instincts, maintain a positive outlook, and approach challenges with resilience and determination. The Queen of Wands reminds you that your confidence is a powerful force, capable of attracting opportunities and inspiring others. She teaches that leadership comes from passion, integrity, and the courage to be unapologetically yourself. Ultimately, this card reflects the transformative power of self-confidence, the joy of creative expression, and the beauty of living boldly and authentically."
+    },
+    {
+      "id": 42,
+      "name": "King of Cups",
+      "filePath": "../assets/cards/king_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The King of Cups symbolizes emotional balance, compassion, and mastery over one's feelings. He represents a wise, caring figure who navigates life with emotional maturity, understanding, and empathy. This card often appears when you are called to approach situations with calmness, diplomacy, and heartfelt wisdom. The King of Cups teaches the importance of emotional intelligence, the ability to remain composed under pressure, and the value of kindness in leadership. In relationships, he reflects deep emotional connections, stability, and the capacity to offer support without being overwhelmed by emotions. This card encourages you to embrace both your rational mind and your emotional heart, finding harmony between the two. It advises you to lead with empathy, listen deeply, and offer guidance grounded in understanding and compassion. The King of Cups reminds you that strength is not just about control but also about the ability to be vulnerable and emotionally open. He teaches that true power comes from balancing logic with heart, wisdom with compassion, and authority with kindness. Ultimately, this card reflects the beauty of emotional mastery, the depth of compassion, and the strength found in leading with love and integrity."
+    },
+    {
+      "id": 43,
+      "name": "Ace of Swords",
+      "filePath": "../assets/cards/ace_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ace of Swords symbolizes clarity, truth, and the power of new ideas. It represents a breakthrough in thinking, the cutting away of confusion, and the emergence of mental clarity. This card often appears when you are on the verge of a new intellectual pursuit, a fresh perspective, or a decisive moment of insight. The Ace of Swords teaches the importance of honesty, clear communication, and the courage to face the truth. In relationships, it reflects open dialogue, mental connection, and the value of transparency and integrity. This card encourages you to embrace new opportunities for learning, to seek the truth with determination, and to use your intellect wisely. It advises you to approach challenges with a sharp mind, to cut through illusions, and to make decisions based on logic and reason. The Ace of Swords reminds you that knowledge is power and that clarity of thought can lead to transformative change. It teaches that truth, when wielded with integrity, has the power to liberate, enlighten, and inspire. Ultimately, this card reflects the potential of new ideas, the triumph of truth, and the strength found in mental clarity and intellectual courage."
+    },
+    {
+      "id": 44,
+      "name": "Five of Swords",
+      "filePath": "../assets/cards/five_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Five of Swords symbolizes conflict, tension, and the aftermath of disputes. It represents situations where competition, arguments, or disagreements have led to feelings of defeat or hollow victory. This card often appears when pride or ego has played a role in conflict, urging reflection on the true cost of winning. The Five of Swords teaches the importance of choosing battles wisely and understanding that victory is not always worth the personal or emotional cost. In relationships, it may indicate communication breakdowns, unresolved conflicts, or the need to address underlying tensions. This card encourages self-reflection, humility, and the willingness to find peaceful resolutions rather than seeking to dominate. It advises you to consider the impact of your words and actions on others, fostering empathy and understanding. The Five of Swords reminds you that integrity and compassion are more valuable than hollow victories. It teaches that true strength comes from resolving conflicts constructively and learning from past mistakes. Ultimately, this card reflects the importance of integrity, the lessons learned from conflict, and the wisdom gained through self-awareness and growth."
+    },
+    {
+      "id": 45,
+      "name": "Six of Wands",
+      "filePath": "../assets/cards/six_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Six of Wands symbolizes victory, recognition, and public acclaim. It represents the triumph that comes from perseverance, hard work, and the support of others. This card often appears when you have achieved a significant goal or are being acknowledged for your efforts and accomplishments. The Six of Wands teaches the importance of confidence, self-belief, and the value of celebrating your successes. In relationships, it reflects mutual support, shared achievements, and the joy of being appreciated for who you are. This card encourages you to embrace your achievements with humility and gratitude, acknowledging the role of others in your success. It advises you to stay grounded, to continue striving for growth, and to use your influence positively. The Six of Wands reminds you that recognition is a reflection of your dedication, but true success comes from personal fulfillment and growth. It teaches that leadership is not just about achievement but also about inspiring and uplifting others. Ultimately, this card reflects the joy of accomplishment, the importance of recognition, and the confidence that comes from embracing your true potential."
+    },
+    {
+      "id": 46,
+      "name": "Eight of Cups",
+      "filePath": "../assets/cards/eight_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Eight of Cups symbolizes the search for deeper meaning, personal growth, and the decision to walk away from unfulfilling situations. It represents a turning point where you recognize that something no longer serves your highest good, prompting you to seek new horizons. This card often appears when you are leaving behind emotional attachments, relationships, or circumstances that no longer align with your values. The Eight of Cups teaches the importance of self-discovery, introspection, and the courage to follow your inner calling. In relationships, it may indicate emotional withdrawal, the end of a connection, or the need for personal space to reflect and grow. This card encourages you to trust your intuition, to let go of what holds you back, and to embrace the unknown with an open heart. It advises you to prioritize your emotional well-being and to seek fulfillment beyond material or superficial attachments. The Eight of Cups reminds you that sometimes, the most meaningful journeys begin with the decision to leave the familiar behind. It teaches that growth often requires letting go, and true fulfillment comes from aligning with your authentic self. Ultimately, this card reflects the power of self-discovery, the courage to walk your own path, and the transformative journey of emotional evolution."
+    },
+    {
+      "id": 47,
+      "name": "Two of Pentacles",
+      "filePath": "../assets/cards/two_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Two of Pentacles symbolizes balance, adaptability, and the ability to manage multiple responsibilities. It represents the need to juggle various aspects of life, such as work, relationships, and personal well-being, while maintaining equilibrium. This card often appears when you are navigating a busy or dynamic period, highlighting the importance of time management and flexibility. The Two of Pentacles teaches the value of prioritization, adaptability, and finding harmony amidst change. In relationships, it may indicate the need to balance emotional dynamics, work-life commitments, or differing priorities. This card encourages you to remain adaptable, to embrace change with a positive attitude, and to find creative solutions to challenges. It advises you to stay grounded, to be mindful of your limits, and to maintain a healthy balance between your responsibilities and self-care. The Two of Pentacles reminds you that while life\u2019s demands can be overwhelming, balance is achievable through mindful choices. It teaches that flexibility, resilience, and a sense of humor are key to navigating life\u2019s ups and downs. Ultimately, this card reflects the art of balance, the strength of adaptability, and the grace found in embracing life\u2019s dynamic flow."
+    },
+    {
+      "id": 48,
+      "name": "Three of Swords",
+      "filePath": "../assets/cards/three_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Three of Swords symbolizes heartbreak, sorrow, and emotional pain. It represents the experience of grief, loss, or betrayal, often highlighting the deep wounds that come from matters of the heart. This card often appears when you are facing emotional challenges, such as the end of a relationship, disappointment, or unresolved conflicts. The Three of Swords teaches the importance of acknowledging your emotions, allowing yourself to grieve, and finding healing through self-compassion. In relationships, it may indicate heartbreak, separation, or the need for honest communication to address underlying issues. This card encourages emotional expression, the release of suppressed feelings, and the courage to confront emotional truths. It advises you to seek support, to process your pain, and to recognize that healing is a journey that requires time and self-care. The Three of Swords reminds you that while heartbreak is painful, it also holds the potential for growth, resilience, and deeper self-awareness. It teaches that emotional wounds can lead to profound personal transformation and the wisdom that comes from facing life\u2019s challenges. Ultimately, this card reflects the journey from heartbreak to healing, the strength found in vulnerability, and the transformative power of emotional resilience."
+    },
+    {
+      "id": 49,
+      "name": "Four of Cups",
+      "filePath": "../assets/cards/four_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Four of Cups symbolizes contemplation, apathy, and reevaluation. It represents a period of introspection where you may feel disconnected or dissatisfied with your current situation. This card often appears when you are focused on what you lack, rather than appreciating the opportunities around you. The Four of Cups teaches the importance of mindfulness, gratitude, and the need to shift your perspective to find fulfillment. In relationships, it may indicate emotional withdrawal, boredom, or the need to reconnect with your feelings. This card encourages you to open your heart to new possibilities, even if they don\u2019t align with your current expectations. It advises taking time to reflect on your emotions and to consider whether your discontent is rooted in unmet desires or internal struggles. The Four of Cups reminds you that sometimes, what you seek is already within reach if you are open to seeing it. It teaches that clarity often comes from within, and emotional renewal begins with self-awareness. Ultimately, this card reflects the power of introspection, the importance of gratitude, and the potential for emotional growth through reflection."
+    },
+    {
+      "id": 50,
+      "name": "Nine of Wands",
+      "filePath": "../assets/cards/nine_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Nine of Wands symbolizes resilience, perseverance, and the determination to overcome obstacles. It represents the strength gained through past experiences and the courage to keep going despite challenges. This card often appears when you are feeling weary but are close to achieving your goals. The Nine of Wands teaches the importance of standing your ground, protecting your boundaries, and believing in your inner strength. In relationships, it may indicate emotional defenses, trust issues, or the need to maintain boundaries while healing from past wounds. This card encourages you to draw on your inner reserves, to remain vigilant, and to have faith in your ability to endure. It advises you to acknowledge your progress, to rest when needed, but not to give up. The Nine of Wands reminds you that persistence is key, and your resilience will lead to success. It teaches that challenges are opportunities for growth and that strength is built through perseverance. Ultimately, this card reflects the power of determination, the courage to face adversity, and the wisdom gained through experience."
+    },
+    {
+      "id": 51,
+      "name": "Ten of Wands",
+      "filePath": "../assets/cards/ten_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ten of Wands symbolizes burdens, responsibility, and the feeling of being overwhelmed. It represents carrying a heavy load, often as a result of taking on too many obligations or trying to do everything alone. This card often appears when you are approaching burnout, signaling the need to delegate, prioritize, or release unnecessary burdens. The Ten of Wands teaches the importance of balance, self-care, and recognizing when to ask for help. In relationships, it may indicate emotional strain, feeling weighed down by expectations, or the need to address imbalances in effort. This card encourages you to reassess your commitments and to focus on what truly matters. It advises setting boundaries, letting go of perfectionism, and finding healthier ways to manage stress. The Ten of Wands reminds you that while hard work is admirable, it should not come at the cost of your well-being. It teaches that lightening your load can create space for joy, freedom, and renewed energy. Ultimately, this card reflects the importance of self-awareness, the courage to release unnecessary burdens, and the wisdom of prioritizing your well-being."
+    },
+    {
+      "id": 52,
+      "name": "Page of Cups",
+      "filePath": "../assets/cards/page_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Page of Cups symbolizes new emotional beginnings, creativity, and intuitive insights. It represents the energy of curiosity, openness, and the willingness to explore your feelings and relationships. This card often appears when you are receiving a message of love, inspiration, or an opportunity to connect with your emotions in a new way. The Page of Cups teaches the importance of vulnerability, imagination, and the courage to express your feelings authentically. In relationships, it may indicate the start of a new romance, emotional growth, or the deepening of a connection through heartfelt communication. This card encourages you to embrace your inner child, to be open to surprises, and to trust your intuition. It advises you to approach life with a sense of wonder, to explore your creative potential, and to listen to the wisdom of your heart. The Page of Cups reminds you that emotional growth often begins with openness and the willingness to feel deeply. It teaches that vulnerability is a strength, and creativity can be a powerful tool for self-expression and healing. Ultimately, this card reflects the beauty of new emotional experiences, the joy of creative exploration, and the magic of following your heart."
+    },
+    {
+      "id": 53,
+      "name": "Knight of Cups",
+      "filePath": "../assets/cards/knight_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Knight of Cups symbolizes romance, charm, and the pursuit of emotional fulfillment. He represents a person or energy that is driven by passion, creativity, and the desire to connect deeply with others. This card often appears when you are inspired to follow your heart, pursue a dream, or express your feelings boldly. The Knight of Cups teaches the importance of following your emotions while balancing them with wisdom and integrity. In relationships, it may indicate a romantic gesture, the beginning of a passionate connection, or a deepening of emotional bonds. This card encourages you to embrace your artistic side, to trust your intuition, and to be open to love and new experiences. It advises you to act with sincerity, to express your emotions freely, and to pursue your passions with enthusiasm. The Knight of Cups reminds you that emotional courage is a powerful force for connection and growth. He teaches that while dreams and ideals are important, they should be grounded in authenticity and genuine emotion. Ultimately, this card reflects the beauty of heartfelt pursuits, the joy of romantic expression, and the transformative power of following your heart\u2019s desires."
+    },
+    {
+      "id": 54,
+      "name": "King of Wands",
+      "filePath": "../assets/cards/king_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The King of Wands symbolizes leadership, vision, and entrepreneurial spirit. He represents a charismatic individual who leads with confidence, inspiring others through his boldness and determination. This card often appears when you are called to step into a leadership role or to take decisive action toward your goals. The King of Wands teaches the importance of self-belief, strategic thinking, and the courage to pursue your passions. In relationships, it reflects strong, dynamic energy, with a focus on mutual growth and shared ambitions. This card encourages you to embrace your inner leader, to set clear goals, and to take bold steps toward your vision. It advises you to remain focused, adaptable, and confident in your ability to overcome challenges. The King of Wands reminds you that true leadership is rooted in authenticity, integrity, and the ability to inspire others. He teaches that passion, when combined with purpose, has the power to create lasting impact. Ultimately, this card reflects the strength of vision, the courage to lead, and the transformative power of pursuing your dreams with determination."
+    },
+    {
+      "id": 55,
+      "name": "Queen of Pentacles",
+      "filePath": "../assets/cards/queen_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Queen of Pentacles symbolizes nurturing, practicality, and financial security. She represents a grounded, resourceful individual who balances career, family, and personal well-being with grace. This card often appears when you are being called to focus on creating stability, both materially and emotionally. The Queen of Pentacles teaches the importance of self-care, financial responsibility, and the value of creating a nurturing environment. In relationships, she reflects loyalty, support, and a strong foundation of trust and mutual respect. This card encourages you to embrace your nurturing side, to manage resources wisely, and to find beauty in the simple things. It advises you to maintain a healthy balance between work and home life, prioritizing both personal and professional growth. The Queen of Pentacles reminds you that abundance comes from mindful management and a generous spirit. She teaches that success is not just about wealth but also about the quality of your relationships and the peace you cultivate within. Ultimately, this card reflects the beauty of groundedness, the power of nurturing, and the fulfillment found in living a balanced, abundant life."
+    },
+    {
+      "id": 56,
+      "name": "Knight of Swords",
+      "filePath": "../assets/cards/knight_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Knight of Swords symbolizes ambition, determination, and swift action. He represents a bold, courageous individual who charges forward with clarity and purpose, often without hesitation. This card often appears when you are driven by a strong desire to achieve your goals, urging you to act decisively. The Knight of Swords teaches the importance of mental focus, clear communication, and the courage to face challenges head-on. In relationships, it reflects directness, intellectual connection, and the pursuit of truth. This card encourages you to embrace your ambition, to speak your mind, and to stand firm in your convictions. It advises you to be mindful of impulsiveness, ensuring that your actions are guided by thoughtfulness and integrity. The Knight of Swords reminds you that while speed and decisiveness are valuable, balance and reflection are equally important. He teaches that clarity of thought, combined with strategic action, can lead to powerful breakthroughs. Ultimately, this card reflects the energy of bold pursuit, the strength of conviction, and the transformative power of focused determination."
+    },
+    {
+      "id": 57,
+      "name": "Page of Pentacles",
+      "filePath": "../assets/cards/page_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Page of Pentacles symbolizes new beginnings, ambition, and the desire for growth in material and academic pursuits. It represents the energy of curiosity, focus, and the readiness to learn new skills or embark on new ventures. This card often appears when you are considering opportunities related to career, education, or financial stability. The Page of Pentacles teaches the importance of planning, dedication, and the willingness to invest in your future. In relationships, it reflects a practical, grounded approach, with an emphasis on building strong foundations. This card encourages you to embrace learning, to stay open to new possibilities, and to approach goals with patience and persistence. It advises you to set clear intentions, to be disciplined in your efforts, and to maintain a growth mindset. The Page of Pentacles reminds you that small, consistent steps lead to significant achievements over time. It teaches that success comes from curiosity, hard work, and the ability to adapt and grow. Ultimately, this card reflects the excitement of new opportunities, the value of continuous learning, and the potential for long-term success through dedication and focus."
+    },
+    {
+      "id": 58,
+      "name": "Two of Wands",
+      "filePath": "../assets/cards/two_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Two of Wands symbolizes planning, decision-making, and the exploration of new possibilities. It represents a stage where you are considering your options, evaluating your goals, and preparing for future action. This card often appears when you are at a crossroads, facing choices that will shape your path ahead. The Two of Wands teaches the importance of strategic thinking, long-term vision, and the courage to step beyond your comfort zone. In relationships, it reflects the potential for growth, shared goals, and the excitement of planning a future together. This card encourages you to be bold, to embrace adventure, and to trust in your ability to create the life you desire. It advises you to gather information, to weigh your options carefully, and to make decisions aligned with your passions and values. The Two of Wands reminds you that while planning is important, action is the key to turning dreams into reality. It teaches that growth often requires taking risks, expanding your horizons, and having faith in your journey. Ultimately, this card reflects the power of choice, the excitement of new opportunities, and the transformative potential of stepping into the unknown with confidence."
+    },
+    {
+      "id": 59,
+      "name": "Three of Cups",
+      "filePath": "../assets/cards/three_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Three of Cups symbolizes celebration, friendship, and community. It represents the joy that comes from connecting with others, sharing successes, and honoring meaningful relationships. This card often appears when you are experiencing a period of happiness, reunions, or the culmination of a project worth celebrating. The Three of Cups teaches the importance of gratitude, emotional support, and the value of close connections. In relationships, it reflects harmony, mutual support, and the beauty of shared experiences. This card encourages you to cherish the people in your life, to celebrate your achievements, and to create joyful memories. It advises you to embrace the spirit of togetherness, to nurture your friendships, and to find happiness in simple gatherings. The Three of Cups reminds you that life\u2019s greatest joys often come from connection and community. It teaches that celebrations, both big and small, are essential for emotional well-being and fulfillment. Ultimately, this card reflects the joy of friendship, the warmth of community, and the power of shared happiness."
+    },
+    {
+      "id": 60,
+      "name": "Five of Pentacles",
+      "filePath": "../assets/cards/five_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Five of Pentacles symbolizes hardship, financial struggles, and feelings of isolation. It represents a period of material or emotional challenges, where you may feel unsupported or left out in the cold. This card often appears when you are experiencing financial difficulties, health issues, or emotional loneliness. The Five of Pentacles teaches the importance of seeking support, staying hopeful, and recognizing that help is available if you reach out. In relationships, it may indicate emotional distance, lack of communication, or the feeling of being disconnected from a partner. This card encourages you to lean on your support network, to ask for help when needed, and to focus on resilience and recovery. It advises you to shift your mindset from scarcity to gratitude, focusing on the resources and connections you still have. The Five of Pentacles reminds you that difficult times are temporary, and support is often closer than you think. It teaches that hardship can be a catalyst for growth, resilience, and deeper connections with those who care for you. Ultimately, this card reflects the challenges of adversity, the power of support, and the hope that comes from perseverance and connection."
+    },
+    {
+      "id": 61,
+      "name": "Six of Cups",
+      "filePath": "../assets/cards/six_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Six of Cups symbolizes nostalgia, childhood memories, and emotional innocence. It represents the warmth of past experiences, the comfort of familiar places, and the joy of reconnecting with your inner child. This card often appears when you are reflecting on the past, revisiting old memories, or experiencing a reunion with someone from your past. The Six of Cups teaches the importance of cherishing happy memories while also embracing the present. In relationships, it reflects deep emotional bonds, acts of kindness, and the sweetness of simple gestures. This card encourages you to approach life with a sense of wonder, to find joy in the little things, and to nurture your inner child. It advises you to reconnect with old friends, honor your past without getting stuck in it, and find healing through cherished memories. The Six of Cups reminds you that while the past can be a source of comfort, growth happens when you integrate those lessons into the present. It teaches that innocence, kindness, and simplicity are timeless values that can bring joy and healing. Ultimately, this card reflects the beauty of nostalgia, the power of emotional connection, and the transformative joy of living with an open heart."
+    },
+    {
+      "id": 62,
+      "name": "Seven of Swords",
+      "filePath": "../assets/cards/seven_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Seven of Swords symbolizes strategy, deception, and the need for careful planning. It represents situations where honesty may be compromised, or where clever thinking is required to navigate challenges. This card often appears when you are dealing with secrecy, hidden motives, or the need to act discreetly. The Seven of Swords teaches the importance of integrity, self-awareness, and the consequences of dishonesty. In relationships, it may indicate trust issues, miscommunication, or the need to be cautious about someone's intentions. This card encourages you to be strategic, to think critically, and to ensure your actions align with your values. It advises you to assess situations carefully, to protect your interests, and to avoid unnecessary risks. The Seven of Swords reminds you that while cleverness can be a strength, integrity is essential for lasting success. It teaches that deception, even when seemingly harmless, can have unintended consequences. Ultimately, this card reflects the importance of honesty, the value of strategic thinking, and the power of ethical decision-making."
+    },
+    {
+      "id": 63,
+      "name": "Eight of Pentacles",
+      "filePath": "../assets/cards/eight_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Eight of Pentacles symbolizes hard work, dedication, and the mastery of skills. It represents the commitment to personal and professional growth through consistent effort and attention to detail. This card often appears when you are focused on honing your craft, learning new skills, or working diligently toward a goal. The Eight of Pentacles teaches the importance of discipline, perseverance, and the value of continuous improvement. In relationships, it reflects the effort required to build strong connections, emphasizing the importance of communication and growth. This card encourages you to take pride in your work, to stay committed to your goals, and to embrace the process of learning. It advises you to focus on quality, to seek out opportunities for growth, and to invest in your personal development. The Eight of Pentacles reminds you that success comes from dedication, patience, and the willingness to put in the effort. It teaches that mastery is not achieved overnight but through consistent practice and a passion for growth. Ultimately, this card reflects the power of hard work, the satisfaction of progress, and the fulfillment that comes from pursuing excellence."
+    },
+    {
+      "id": 64,
+      "name": "Four of Pentacles",
+      "filePath": "../assets/cards/four_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Four of Pentacles symbolizes security, control, and the desire to hold onto material possessions or resources. It represents a mindset focused on stability, financial security, and the fear of loss. This card often appears when you are feeling protective of your resources, whether financial, emotional, or personal. The Four of Pentacles teaches the importance of balance between saving and sharing, and the risks of becoming overly attached to material things. In relationships, it may indicate possessiveness, emotional guardedness, or fear of vulnerability. This card encourages you to reflect on what you are holding onto and whether it serves your highest good. It advises you to find security within yourself rather than relying solely on external factors. The Four of Pentacles reminds you that true abundance comes from both giving and receiving freely. It teaches that while financial stability is important, emotional openness and generosity lead to deeper fulfillment. Ultimately, this card reflects the need for balance between control and flow, security and freedom."
+    },
+    {
+      "id": 65,
+      "name": "Seven of Pentacles",
+      "filePath": "../assets/cards/seven_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Seven of Pentacles symbolizes patience, reflection, and long-term investment. It represents a period of assessment, where you evaluate the results of your efforts and consider future growth. This card often appears when you are contemplating whether your hard work is yielding the desired outcomes. The Seven of Pentacles teaches the importance of perseverance, delayed gratification, and strategic planning. In relationships, it may indicate the need to reflect on the health of a partnership and whether it aligns with your long-term goals. This card encourages you to be patient, to trust the process, and to recognize that growth takes time. It advises you to adjust your approach if necessary, but to remain committed to your goals. The Seven of Pentacles reminds you that even small steps lead to significant progress over time. It teaches that true success comes from consistent effort, thoughtful evaluation, and a willingness to adapt. Ultimately, this card reflects the value of patience, the wisdom of reflection, and the rewards of sustained effort."
+    },
+    {
+      "id": 66,
+      "name": "Six of Swords",
+      "filePath": "../assets/cards/six_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Six of Swords symbolizes transition, moving forward, and leaving behind difficulties. It represents a journey from challenging circumstances toward a more peaceful and stable situation. This card often appears when you are undergoing a period of change, healing, or personal growth. The Six of Swords teaches the importance of letting go of what no longer serves you, and the courage to embrace new beginnings. In relationships, it may indicate moving past conflicts, emotional healing, or the process of recovery after a breakup. This card encourages you to trust the journey, even if the path ahead feels uncertain. It advises you to focus on the lessons learned from past experiences while looking forward to a brighter future. The Six of Swords reminds you that transitions are part of life\u2019s natural flow, leading to new opportunities and growth. It teaches that healing often comes from distance and reflection, allowing clarity to emerge. Ultimately, this card reflects the process of moving forward, the hope of new horizons, and the peace found through acceptance and growth."
+    },
+    {
+      "id": 67,
+      "name": "Four of Wands",
+      "filePath": "../assets/cards/four_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Four of Wands symbolizes celebration, harmony, and the joy of reaching a milestone. It represents stability, community, and the sense of accomplishment that comes from shared success. This card often appears when you are experiencing a period of happiness, such as weddings, family gatherings, or achievements. The Four of Wands teaches the importance of gratitude, creating strong foundations, and cherishing moments of connection. In relationships, it reflects commitment, harmony, and the joy of building a life together. This card encourages you to celebrate your achievements, to appreciate the people in your life, and to find joy in the present moment. It advises you to embrace a sense of belonging, whether within a family, community, or personal relationship. The Four of Wands reminds you that stability comes from both external achievements and internal contentment. It teaches that life\u2019s milestones are worth celebrating, and that shared joy strengthens bonds. Ultimately, this card reflects the beauty of community, the warmth of celebration, and the fulfillment found in meaningful connections."
+    },
+    {
+      "id": 68,
+      "name": "Three of Wands",
+      "filePath": "../assets/cards/three_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Three of Wands symbolizes expansion, foresight, and the pursuit of long-term goals. It represents the excitement of new opportunities, planning for the future, and the confidence to explore beyond familiar boundaries. This card often appears when you are on the brink of growth, ready to take the next steps toward your ambitions. The Three of Wands teaches the importance of vision, strategic planning, and trusting in your ability to succeed. In relationships, it reflects growth, mutual goals, and the excitement of shared adventures or new phases. This card encourages you to broaden your horizons, to be open to new experiences, and to embrace the unknown with confidence. It advises you to maintain focus on your long-term vision while taking practical steps toward your goals. The Three of Wands reminds you that progress often comes from looking ahead, taking risks, and believing in your potential. It teaches that success is a journey, shaped by courage, planning, and the willingness to explore new possibilities. Ultimately, this card reflects the power of vision, the excitement of new ventures, and the fulfillment found in growth and exploration."
+    },
+    {
+      "id": 69,
+      "name": "Nine of Pentacles",
+      "filePath": "../assets/cards/nine_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Nine of Pentacles symbolizes self-sufficiency, luxury, and financial independence. It represents the rewards of hard work, personal achievement, and the ability to enjoy the fruits of your labor. This card often appears when you are experiencing a period of financial stability, personal success, or self-reliance. The Nine of Pentacles teaches the importance of self-discipline, gratitude, and the satisfaction that comes from personal growth. In relationships, it reflects independence, self-confidence, and the ability to find fulfillment within yourself. This card encourages you to celebrate your accomplishments, to appreciate the beauty around you, and to take pride in your achievements. It advises you to maintain a balance between enjoying material comforts and nurturing your inner well-being. The Nine of Pentacles reminds you that true wealth includes both external success and inner peace. It teaches that self-reliance and personal fulfillment are key to living a rich and meaningful life. Ultimately, this card reflects the joy of independence, the value of self-sufficiency, and the abundance that comes from personal growth and achievement."
+    },
+    {
+      "id": 70,
+      "name": "Eight of Swords",
+      "filePath": "../assets/cards/eight_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Eight of Swords symbolizes restriction, feeling trapped, and mental limitations. It represents a situation where you may feel powerless, stuck, or unable to see a clear way forward. This card often appears when self-imposed fears or limiting beliefs are preventing you from taking action. The Eight of Swords teaches the importance of shifting your perspective, recognizing your inner strength, and challenging negative thought patterns. In relationships, it may indicate feelings of emotional confinement, fear of vulnerability, or communication barriers. This card encourages you to look beyond perceived obstacles, to seek clarity, and to take small steps toward freeing yourself. It advises you to confront your fears, to question the validity of your limitations, and to reclaim your personal power. The Eight of Swords reminds you that while challenges may seem overwhelming, your mind holds the key to liberation. It teaches that freedom comes from within, and by changing your mindset, you can overcome even the most daunting situations. Ultimately, this card reflects the journey from mental entrapment to empowerment, the courage to face fears, and the transformative power of self-awareness."
+    },
+    {
+      "id": 71,
+      "name": "Two of Swords",
+      "filePath": "../assets/cards/two_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Two of Swords symbolizes indecision, stalemate, and the need to make a difficult choice. It represents a situation where you are torn between two paths, struggling to find clarity amidst conflicting thoughts or emotions. This card often appears when you are avoiding a decision, feeling stuck, or unable to see the full picture. The Two of Swords teaches the importance of balance, objectivity, and the courage to face challenging decisions. In relationships, it may indicate emotional barriers, unresolved conflicts, or the need for honest communication. This card encourages you to trust your intuition, to seek inner clarity, and to address the underlying issues causing the impasse. It advises you to remove emotional blindfolds, to evaluate situations with an open heart and mind, and to make decisions that align with your values. The Two of Swords reminds you that avoiding a decision often prolongs discomfort, and action is the key to progress. It teaches that clarity comes through reflection, courage, and the willingness to face difficult truths. Ultimately, this card reflects the process of decision-making, the challenge of finding balance, and the empowerment that comes from choosing your path with confidence."
+    },
+    {
+      "id": 72,
+      "name": "Ten of Cups",
+      "filePath": "../assets/cards/ten_of_cups.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ten of Cups symbolizes emotional fulfillment, harmony, and lasting happiness. It represents the joy that comes from strong relationships, family bonds, and the alignment of heart and soul. This card often appears when you are experiencing a period of peace, love, and contentment in your personal life. The Ten of Cups teaches the importance of emotional connection, gratitude, and the beauty of simple joys shared with loved ones. In relationships, it reflects harmony, commitment, and the sense of security found in meaningful connections. This card encourages you to cherish your loved ones, to nurture your relationships, and to celebrate the love and support you have in your life. It advises you to focus on what truly brings you happiness, to cultivate emotional well-being, and to express gratitude for your blessings. The Ten of Cups reminds you that true fulfillment comes from emotional richness and authentic connections. It teaches that love, community, and shared joy are the foundations of a happy and meaningful life. Ultimately, this card reflects the power of love, the beauty of emotional harmony, and the joy that comes from living in alignment with your heart."
+    },
+    {
+      "id": 73,
+      "name": "Ace of Wands",
+      "filePath": "../assets/cards/ace_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ace of Wands symbolizes inspiration, new beginnings, and creative potential. It represents the spark of a new idea, passion, or opportunity that ignites your motivation and enthusiasm. This card often appears when you are ready to embark on a new venture, project, or creative endeavor. The Ace of Wands teaches the importance of embracing your passions, following your instincts, and taking bold action toward your goals. In relationships, it reflects excitement, chemistry, and the potential for growth through shared interests and ambitions. This card encourages you to seize opportunities, to trust your creative impulses, and to take the first steps toward manifesting your dreams. It advises you to embrace change, to be open to new experiences, and to channel your energy into projects that inspire you. The Ace of Wands reminds you that inspiration is the fuel for growth, and taking action turns ideas into reality. It teaches that passion, creativity, and courage are the keys to unlocking your potential. Ultimately, this card reflects the excitement of new beginnings, the power of creative energy, and the transformative potential of inspired action."
+    },
+    {
+      "id": 74,
+      "name": "Five of Wands",
+      "filePath": "../assets/cards/five_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Five of Wands symbolizes conflict, competition, and the struggle for dominance. It represents situations where differing opinions, ideas, or goals create tension and disagreements. This card often appears when you are facing challenges that require assertiveness, negotiation, or the ability to stand your ground. The Five of Wands teaches the importance of healthy competition, the value of diverse perspectives, and the need for constructive conflict resolution. In relationships, it may indicate arguments, power struggles, or the need to address unresolved issues. This card encourages you to approach conflicts with an open mind, to listen actively, and to find common ground. It advises you to embrace challenges as opportunities for growth, to maintain your integrity, and to avoid unnecessary confrontations. The Five of Wands reminds you that conflict, when handled constructively, can lead to personal development and stronger relationships. It teaches that cooperation, communication, and flexibility are key to overcoming obstacles. Ultimately, this card reflects the dynamic nature of conflict, the lessons learned through struggle, and the strength gained from navigating challenges."
+    },
+    {
+      "id": 75,
+      "name": "Ten of Wands",
+      "filePath": "../assets/cards/ten_of_wands.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ten of Wands symbolizes burden, responsibility, and the feeling of being overwhelmed by obligations. It represents the weight of carrying too many tasks, commitments, or emotional burdens without adequate support. This card often appears when you are nearing the end of a challenging period, feeling exhausted from the demands placed upon you. The Ten of Wands teaches the importance of delegation, prioritization, and the need to release unnecessary burdens. In relationships, it may indicate emotional strain, one-sided efforts, or the feeling of being weighed down by unresolved issues. This card encourages you to reassess your commitments, to set healthy boundaries, and to ask for help when needed. It advises you to recognize the signs of burnout, to practice self-care, and to focus on what truly matters. The Ten of Wands reminds you that while hard work is admirable, balance and support are essential for long-term well-being. It teaches that letting go of unnecessary burdens creates space for growth, joy, and renewed energy. Ultimately, this card reflects the journey from overwhelm to empowerment, the wisdom of self-awareness, and the freedom found in releasing what no longer serves you."
+    },
+    {
+      "id": 76,
+      "name": "Queen of Swords",
+      "filePath": "../assets/cards/queen_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Queen of Swords symbolizes intellect, clarity, and strong communication. She represents a person who values truth, logic, and fairness, often using sharp wit and keen insight to navigate life's challenges. This card often appears when you are called to approach situations with objectivity, honesty, and mental clarity. The Queen of Swords teaches the importance of clear thinking, direct communication, and emotional boundaries. In relationships, she reflects honesty, independence, and the ability to see through illusions or deceptions. This card encourages you to speak your truth, to trust your judgment, and to make decisions based on facts rather than emotions. It advises you to stay focused, to cut through confusion, and to embrace intellectual growth. The Queen of Swords reminds you that clarity comes from both self-reflection and a commitment to truth. She teaches that wisdom is gained through experience, and that emotional balance enhances, rather than diminishes, intellectual strength. Ultimately, this card reflects the power of clear thinking, the strength of integrity, and the transformative impact of honest communication."
+    },
+    {
+      "id": 77,
+      "name": "Ace of Pentacles",
+      "filePath": "../assets/cards/ace_of_pentacles.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The Ace of Pentacles symbolizes new beginnings, prosperity, and opportunities for material growth. It represents the potential for financial stability, career advancement, or the manifestation of goals in the physical world. This card often appears when you are at the start of a new venture, investment, or project with the promise of long-term success. The Ace of Pentacles teaches the importance of grounding your ideas in reality, setting practical goals, and taking action to achieve them. In relationships, it reflects the potential for growth, stability, and the creation of a secure foundation. This card encourages you to seize opportunities, to invest in your future, and to cultivate abundance through hard work and dedication. It advises you to stay focused, to plan wisely, and to nurture the seeds of success. The Ace of Pentacles reminds you that prosperity is a combination of opportunity, effort, and resilience. It teaches that abundance is not just financial but also includes personal growth, health, and well-being. Ultimately, this card reflects the excitement of new opportunities, the potential for lasting success, and the fulfillment found in building a prosperous future."
+    },
+    {
+      "id": 78,
+      "name": "King of Swords",
+      "filePath": "../assets/cards/king_of_swords.jpeg",
+      "suit": "Minor Arcana",
+      "interpretation": "The King of Swords symbolizes authority, intellectual power, and truth. He represents a person who leads with logic, fairness, and strong ethical principles. This card often appears when you are called to make decisions based on objective reasoning, clarity, and honesty. The King of Swords teaches the importance of integrity, strategic thinking, and clear communication. In relationships, he reflects emotional intelligence, open dialogue, and the ability to resolve conflicts with reason. This card encourages you to use your intellect to navigate challenges, to speak your truth confidently, and to lead with wisdom. It advises you to maintain high standards, to seek justice, and to ensure that your actions align with your core values. The King of Swords reminds you that true strength lies in knowledge, fairness, and the courage to uphold the truth. He teaches that leadership is rooted in clarity, wisdom, and ethical decision-making. Ultimately, this card reflects the power of intellect, the importance of truth, and the transformative impact of thoughtful leadership."
+    }
+  ]
+}
