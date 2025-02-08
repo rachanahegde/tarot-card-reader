@@ -816,6 +816,9 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-\[120px\] {
+    height: 120px;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -839,9 +842,6 @@
   }
   .w-\[80px\] {
     width: 80px;
-  }
-  .w-\[150px\] {
-    width: 150px;
   }
   .w-\[200px\] {
     width: 200px;
@@ -994,9 +994,6 @@
   }
   .animate-none {
     animation: none;
-  }
-  .cursor-pointer {
-    cursor: pointer;
   }
   .touch-pinch-zoom {
     --tw-pinch-zoom: pinch-zoom;
@@ -2166,10 +2163,6 @@
   .transition-normal {
     transition-behavior: normal;
   }
-  .duration-100 {
-    --tw-duration: 100ms;
-    transition-duration: 100ms;
-  }
   .duration-300 {
     --tw-duration: 300ms;
     transition-duration: 300ms;
@@ -2335,10 +2328,10 @@
   .transform-view {
     transform-box: view-box;
   }
-  .hover\:z-10 {
+  .hover\:z-20 {
     &:hover {
       @media (hover: hover) {
-        z-index: 10;
+        z-index: 20;
       }
     }
   }
@@ -2377,14 +2370,70 @@
       }
     }
   }
-  .hover\:shadow-\[0px_0px_5px_4px_rgba\(191\,145\,255\,0\.8\)\] {
-    &:hover {
-      @media (hover: hover) {
-        --tw-shadow: 0px 0px 5px 4px var(--tw-shadow-color, rgba(191,145,255,0.8));
-        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-      }
-    }
+}
+.card {
+  perspective: 1000px;
+}
+.card-inner {
+  position: relative;
+  width: 80px;
+  height: 120px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+}
+.card-front {
+  transform: rotateY(180deg);
+}
+.card-back {
+  background: url('../assets/cards/tarot_card_back.png') no-repeat center/cover;
+}
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
   }
+  50% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+}
+.sparkle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0));
+  border-radius: 50%;
+  pointer-events: none;
+  animation: sparkle 0.8s ease-out forwards;
+}
+@keyframes shimmer {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+}
+.shimmer {
+  animation: shimmer 1.5s infinite ease-in-out;
+  border: 2px solid gold;
+  border-radius: 8px;
 }
 @keyframes spin {
   to {
