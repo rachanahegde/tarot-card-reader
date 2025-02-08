@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* Customise tailwind theme */
 @theme {
   /* Add custom fonts */
   --font-playfair: 'Playfair', serif;
@@ -11,4 +12,72 @@
   --color-light-purple: oklch(0.827 0.119 306.383);
   --color-medium-purple: oklch(0.714 0.203 305.504);
   --color-dark-purple: oklch(0.291 0.149 302.717);
+}
+
+/* ANIMATIONS FOR THE TAROT READING PAGE */
+
+/* Card Flip Animation */
+.card {
+  perspective: 1000px; /* Creates 3D effect */
+}
+
+.card-inner {
+  position: relative;
+  width: 80px;
+  height: 120px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and Back of the Card */
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+}
+
+.card-front {
+  transform: rotateY(180deg); /* Hidden initially */
+}
+
+.card-back {
+  background: url('../assets/cards/tarot_card_back.png') no-repeat center/cover;
+}
+
+/* Sparkle Effect */
+@keyframes sparkle {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.4); }
+}
+
+.sparkle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0));
+  border-radius: 50%;
+  pointer-events: none;
+  animation: sparkle 0.8s ease-out forwards;
+}
+
+/* Shimmer effect for selected cards */
+@keyframes shimmer {
+  0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); }
+  50% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }
+  100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); }
+}
+
+.shimmer {
+  animation: shimmer 1.5s infinite ease-in-out;
+  border: 2px solid gold;
+  border-radius: 8px;
 }
