@@ -29,18 +29,30 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   cards = shuffle(cards);
 
-  // Display card backs
+  // Display card backs with flip animation
   cards.forEach((cardData, index) => {
-    const card = document.createElement("img");
-    card.src = "../assets/cards/tarot_card_back.png";
-    card.alt = "Tarot Card Back";
+    const card = document.createElement("div");
     card.className =
-      "w-[80px] -ml-8 transition-transform duration-100 hover:scale-110 hover:z-10 hover:shadow-[0px_0px_5px_4px_rgba(191,145,255,0.8)] cursor-pointer";
+      "card w-[80px] h-[120px] -ml-8 hover:scale-110 hover:z-20 transition-transform duration-300";
     card.dataset.index = index;
 
-    card.addEventListener("click", () => handleCardClick(card, cardData));
+    const cardInner = document.createElement("div");
+    cardInner.className = "card-inner";
 
+    const cardBack = document.createElement("div");
+    cardBack.className = "card-back";
+
+    const cardFront = document.createElement("img");
+    cardFront.className = "card-front";
+    cardFront.src = cardData.filePath;
+    cardFront.alt = cardData.name;
+
+    cardInner.appendChild(cardBack);
+    cardInner.appendChild(cardFront);
+    card.appendChild(cardInner);
     cardContainer.appendChild(card);
+
+    card.addEventListener("click", () => handleCardClick(card, cardData));
   });
 
   function handleCardClick(cardElement, cardData) {
@@ -48,17 +60,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (selectedCards.length < 3 && !selectedCards.includes(cardData)) {
       selectedCards.push(cardData);
 
-      // Display the selected card at the top
-      const selectedCard = document.createElement("img");
-      selectedCard.src = cardData.filePath;
-      selectedCard.alt = cardData.name;
-      selectedCard.className =
-        "w-[200px] transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg";
+      // Flip the card
+      cardElement.classList.add("flipped");
 
-      selectedCardsContainer.appendChild(selectedCard);
+      // Add sparkle effect
+      const sparkle = document.createElement("div");
+      sparkle.className = "sparkle";
+      cardElement.appendChild(sparkle);
 
-      // Remove the selected card from the lineup
-      cardElement.remove();
+      // Display the selected card at the top after flip animation
+      setTimeout(() => {
+        const selectedCard = document.createElement("img");
+        selectedCard.src = cardData.filePath;
+        selectedCard.alt = cardData.name;
+        selectedCard.className =
+          "w-[200px] transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg shimmer";
+        selectedCardsContainer.appendChild(selectedCard);
+
+        // Remove the card from the grid
+        cardElement.remove();
+      }, 800); // Wait for the flip animation to finish
 
       // Disable further clicks after 3 cards are selected
       if (selectedCards.length === 3) {
@@ -70,6 +91,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   function disableFurtherClicks() {
     // Selects remaining cards, the <img> elements in .card-container div
     const remainingCards = document.querySelectorAll(".card-container img");
+
     //Loops through remaining cards and prevents any clicks on them
     remainingCards.forEach((card) => {
       card.style.pointerEvents = "none";
@@ -82,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-// TODO add some sort of animation when user clicks on card
-
+// TODO Add the tarot card's name above each card and the words 'past' 'present' 'future' below each card
 // TODO Add the 'Interpret my cards' button
-// TODO Redirect to new page when they click on 'interpret my cards' (tarot-explanation.html)
+// TODO Show the explanation for the first card when they click on 'interpret my cards' (tarot-explanation.html). Then when they click or hover over a card, the explanation for THAT card should show instead.
+// TODO optional styling - add a border to the div of the box where the explanation is in??
