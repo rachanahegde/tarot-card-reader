@@ -18,15 +18,15 @@
 
 /* Card Flip Animation */
 .card {
-  perspective: 1000px; /* Creates 3D effect */
+  perspective: 1000px; /* Creates 3D depth effect */
 }
 
 .card-inner {
   position: relative;
   width: 80px;
   height: 120px;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+  transition: transform 0.6s; /* Animates flip over 0.6s */
+  transform-style: preserve-3d; /* keeps 3d effect during the flip */
   cursor: pointer;
 }
 
@@ -36,10 +36,10 @@
 
 /* Front and Back of the Card */
 .card-front, .card-back {
-  position: absolute;
+  position: absolute; /* stacks front and back of card on each other */
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  backface-visibility: hidden; /* hides back of card when flipped */
   border-radius: 8px;
 }
 
@@ -54,11 +54,11 @@
 /* Sparkle Effect */
 @keyframes sparkle {
   0%, 100% { opacity: 0.8; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.4); }
+  50% { opacity: 1; transform: scale(1.4); } /* creates glowing pulse effect */
 }
 
 .sparkle {
-  position: absolute;
+  position: absolute; /* positions sparkle over card */
   top: -10px;
   left: -10px;
   width: 100px;
@@ -70,6 +70,7 @@
 }
 
 /* Shimmer effect for selected cards */
+/* this keyframe defines shimmer animation for glowing borders */
 @keyframes shimmer {
   0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); }
   50% { box-shadow: 0 0 20px rgba(255, 215, 0, 1); }
@@ -77,7 +78,7 @@
 }
 
 .shimmer {
-  animation: shimmer 1.5s infinite ease-in-out;
+  animation: shimmer 1.5s infinite ease-in-out; /* runs shimmer effect on infinite loop */
   border: 2px solid gold;
   border-radius: 8px;
 }
