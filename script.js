@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // List of cards selected by user
   let selectedCards = [];
+  let canInterpret = false; // State variable to control when explanations show
 
   // Load JSON data
   const response = await fetch("../tarot_cards.json");
@@ -72,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Display the selected card at the top after flip animation
       setTimeout(() => {
         const cardWrapper = document.createElement("div");
-        cardWrapper.className = "flex flex-col items-center space-y-2";
+        cardWrapper.className = "flex flex-col items-center space-y-3";
 
         // Card Name (Above the card)
         const cardName = document.createElement("p");
@@ -118,7 +119,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       explanationContainer = document.createElement("div");
       explanationContainer.id = "explanation-container";
       explanationContainer.className =
-        "border-2 border-gold p-4 mt-4 rounded-lg text-white max-w-md mx-auto";
+        "border-2 border-gold p-4 mt-3 mb-10 rounded-lg text-white max-w-[600px] mx-auto";
       mainContainer.appendChild(explanationContainer);
     }
 
@@ -144,11 +145,21 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Add event listener to interpret the cards when clicked
     interpretButton.addEventListener("click", () => {
+      canInterpret = true; //Enable interpretation
       displayExplanation(selectedCards[0]); // Show explanation for the first card
+      interpretButton.remove(); // Remove the button after clicking
     });
   }
 
   function disableFurtherClicks() {
+    // Select the instruction element
+    const instructionElement = document.getElementById("think-of-q");
+
+    // ✅ Remove the instruction text if it exists
+    if (instructionElement) {
+      instructionElement.remove();
+    }
+
     // Selects remaining cards, the <img> elements in .card-container div
     const remainingCards = document.querySelectorAll(".card-container img");
 
@@ -160,22 +171,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Remove all unselected cards after a brief delay
     setTimeout(() => {
       cardContainer.innerHTML = ""; // Clears all cards
-
-      // Add "Interpret My Cards" button after cards are cleared
-      addInterpretButton();
+      addInterpretButton(); // Add button after clearing cards
     }, 1000); // Delay by 1 second for smooth transition
   }
 
-  // TODO Add event listener for "Interpret My Cards" button
-  document.addEventListener("click", (e) => {
-    if (e.target.id === "interpret-cards" && selectedCards.length === 3) {
-      displayExplanation(selectedCards[0]); // Show explanation for the first card
-    }
-  });
-
-  // TODO Event listeners for hover/click on cards
+  // Event listeners for hover/click on selected cards
   selectedCardsContainer.addEventListener("mouseover", (e) => {
-    if (e.target.tagName === "IMG") {
+    if (canInterpret && e.target.tagName === "IMG") {
       const cardName = e.target.alt;
       const cardData = selectedCards.find((card) => card.name === cardName);
       displayExplanation(cardData);
@@ -183,10 +185,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   selectedCardsContainer.addEventListener("click", (e) => {
-    if (e.target.tagName === "IMG") {
+    if (canInterpret && e.target.tagName === "IMG") {
       const cardName = e.target.alt;
       const cardData = selectedCards.find((card) => card.name === cardName);
       displayExplanation(cardData);
     }
   });
 });
+
+// TODO Add exit button that takes user back to home page
+// TODO implement the AI chat functionality
