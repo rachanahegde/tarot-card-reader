@@ -127,6 +127,27 @@ document.addEventListener("DOMContentLoaded", async () => {
         <h2 class="font-playfair text-2xl text-gold font-bold mb-2">${cardData.name}</h2>
         <p class="font-poppins text-md">${cardData.interpretation}</p>
       `;
+
+    // Create Exit Button
+
+    // Create a wrapper to center the Exit button
+    const buttonWrapper = document.createElement("div");
+    buttonWrapper.className = "flex justify-center mt-4";
+
+    const exitButton = document.createElement("button");
+    exitButton.textContent = "Exit";
+    exitButton.className =
+      "bg-mint-green text-black font-bold mt-4 py-2 px-6 rounded-lg shadow-md hover:scale-105 transition-transform";
+
+    // Redirect to homepage on click
+    exitButton.addEventListener("click", () => {
+      window.location.href = "index.html"; // Redirects to homepage
+    });
+
+    buttonWrapper.appendChild(exitButton); // Add exit btn to wrapper
+
+    // Append the Exit button wrapper below the explanation
+    explanationContainer.appendChild(buttonWrapper);
   }
 
   // Create the interpret cards button
@@ -193,5 +214,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 });
 
-// TODO Add exit button that takes user back to home page
 // TODO implement the AI chat functionality
