@@ -148,6 +148,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Append the Exit button wrapper below the explanation
     explanationContainer.appendChild(buttonWrapper);
+
+    // Add the AI Chat Prompt after the explanation
+    addAIChatPrompt();
   }
 
   // Create the interpret cards button
@@ -176,7 +179,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Select the instruction element
     const instructionElement = document.getElementById("think-of-q");
 
-    // ✅ Remove the instruction text if it exists
+    // Remove the instruction text if it exists
     if (instructionElement) {
       instructionElement.remove();
     }
@@ -213,5 +216,3 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
 });
-
-// TODO implement the AI chat functionality
