@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Read My Tarot</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Stylesheets for Tailwind and animations -->
@@ -17,12 +17,13 @@
     </head>
     <body>
         <!-- Background gradient dark purple to black from top to bottom -->
-        <div class="main-container bg-gradient-to-b from-purple-900 to-black min-h-screen flex flex-col">
+         <!-- Note: added relative to make sure #prompt-icon-div will be relative to main container later -->
+        <div class="main-container relative bg-gradient-to-b from-purple-900 to-black min-h-screen flex flex-col">
             <!-- Navigation bar -->
             <div class="flex items-center justify-between w-full px-6 pt-3">
                 <!-- Website icon and name (left aligned) -->
                 <div class="flex items-center space-x-3">
-                    <div class="pt-3 padding">
+                    <div class="pt-3">
                         <img class="w-16 ml-3" src="../assets/icons/crystal-ball-icon.png" alt="Tarot card reader icon">
                     </div>
                     <h1 class="font-playfair text-[35px] font-bold italic text-gold"> read my tarot </h1>
@@ -39,27 +40,8 @@
             <!-- Card backs are inserted dynamically with JS -->
             <div class="card-container flex flex-wrap justify-center items-center p-6 ml-20 mr-20">
             </div>
-
-
-            <!-- Interpret my cards button -->
-            <!-- <button id="interpret-cards">Interpret My Cards</button> -->
-
-            <!-- Tarot 3 card reading -->
-            <!-- <div id="reading">
-                <h2>Your Reading</h2>
-                <div id="selected-cards"></div>
-                <p id="reading-text"></p>
-            </div> -->
-
-            <!-- AI Chat -->
-            <!-- <div id="chat-container">
-                <h2>Ask the AI</h2>
-                <input type="text" id="chat-input" placeholder="Ask about your reading">
-                <button id="send-message">Ask</button>
-                <div id="chat-output"></div>
-            </div> -->
         </div>
-        <script src="../script.js"></script>
-        <script src="../ai-chat.js"></script>
+        <script src="../ai-chat.js" defer></script>
+        <script src="../script.js" defer></script>
     </body>
 </html>
