@@ -1,6 +1,5 @@
 // TODO Store API key securely
 
-// TODO put the prompticondiv beside the explanation container on the right hand side of the page using absolute or relative positioning
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
   if (document.querySelector("#prompt-icon-div")) return;
@@ -8,11 +7,13 @@ function addAIChatPrompt() {
   // Create container for the prompt and the icon
   const promptIconDiv = document.createElement("div");
   promptIconDiv.id = "prompt-icon-div";
+  promptIconDiv.className =
+    "absolute right-4 bottom-10 flex flex-col items-center space-y-2";
 
   const aiPromptContainer = document.createElement("div");
   aiPromptContainer.id = "ai-chat-prompt";
   aiPromptContainer.className =
-    "bg-gold text-black p-4 mt-4 mb-10 rounded-lg flex items-center  shadow-md";
+    "bg-gold text-black p-2 rounded-lg flex items-center  shadow-md";
 
   aiPromptContainer.innerHTML = `
     <p class="font-poppins text-md font-semibold">Want to ask about your reading?</p>  
@@ -23,7 +24,7 @@ function addAIChatPrompt() {
   aiPromptIcon.src = "../assets/icons/chat-icon.png";
   aiPromptIcon.alt = "Chat Icon";
   aiPromptIcon.className =
-    "w-[30px] ml-4 hover:scale-110 transition-transform cursor-pointer";
+    "w-[50px] ml-4 hover:scale-110 transition-transform cursor-pointer";
 
   // Append the prompt and icon to the container
   promptIconDiv.appendChild(aiPromptContainer);
@@ -41,8 +42,6 @@ function addAIChatPrompt() {
     openAIChat();
   });
 }
-
-// TODO position gold container to the right and restyle :)
 
 /*
 function openAIChat() {
