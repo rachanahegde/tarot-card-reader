@@ -1,31 +1,48 @@
 // TODO Store API key securely
 
+// TODO put the prompticondiv beside the explanation container on the right hand side of the page using absolute or relative positioning
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
-  if (document.querySelector("#ai-chat-prompt")) return;
+  if (document.querySelector("#prompt-icon-div")) return;
+
+  // Create container for the prompt and the icon
+  const promptIconDiv = document.createElement("div");
+  promptIconDiv.id = "prompt-icon-div";
 
   const aiPromptContainer = document.createElement("div");
   aiPromptContainer.id = "ai-chat-prompt";
   aiPromptContainer.className =
-    "bg-gold text-black p-4 mt-4 mb-10 rounded-lg flex items-center justify-between max-w-[500px] mx-auto shadow-md";
+    "bg-gold text-black p-4 mt-4 mb-10 rounded-lg flex items-center  shadow-md";
 
   aiPromptContainer.innerHTML = `
-    <p class="font-poppins text-md font-semibold">Want to ask about your reading?</p>
-    <img src="../assets/icons/chat-icon.png" alt="Chat Icon" class="w-8 h-8 ml-4 hover:scale-110 transition-transform cursor-pointer">
-  `;
+    <p class="font-poppins text-md font-semibold">Want to ask about your reading?</p>  
+    `;
 
-  // Append to the end of the main container
+  // Add the icon
+  const aiPromptIcon = document.createElement("img");
+  aiPromptIcon.src = "../assets/icons/chat-icon.png";
+  aiPromptIcon.alt = "Chat Icon";
+  aiPromptIcon.className =
+    "w-[30px] ml-4 hover:scale-110 transition-transform cursor-pointer";
+
+  // Append the prompt and icon to the container
+  promptIconDiv.appendChild(aiPromptContainer);
+  promptIconDiv.appendChild(aiPromptIcon);
+
+  // Append to the end of the main container on the page
   const mainContainer = document.querySelector(".main-container");
-  mainContainer.appendChild(aiPromptContainer);
+  mainContainer.appendChild(promptIconDiv);
 
-  // Event listener to open the AI chat when clicking the icon
-  const chatIcon = aiPromptContainer.querySelector("img");
-  chatIcon.addEventListener("click", () => {
+  // Event listeners to open the AI chat when clicking the icon or prompt
+  aiPromptContainer.addEventListener("click", () => {
+    openAIChat();
+  });
+  aiPromptIcon.addEventListener("click", () => {
     openAIChat();
   });
 }
 
-// TODO position gold container to the right and restyle  
+// TODO position gold container to the right and restyle :)
 
 /*
 function openAIChat() {
