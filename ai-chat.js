@@ -43,18 +43,58 @@ function addAIChatPrompt() {
   });
 }
 
-/*
 function openAIChat() {
   // Prevent multiple chat windows
   if (document.querySelector("#ai-chat-container")) return;
 
+  // TODO Hide the aiPromptContainer while the AI chat is open
+  // TODO display aiPromptContainer while AIchat is closed
+
+  // Create the chat container
   const chatContainer = document.createElement("div");
   chatContainer.id = "ai-chat-container";
   chatContainer.className =
-    "max-w-md mx-auto bg-black border border-gold p-4 rounded-lg mt-4 shadow-lg";
+    "max-w-md mx-auto bg-light-purple border border-gold p-4 rounded-lg shadow-lg";
+
+  const chatHeader = document.createElement("h2");
+  chatHeader.textContent = "Ask the Universe";
+  chatHeader.className = "text-gold font-playfair text-2xl font-bold mb-2";
+
+  // Create the default AI question with AI icon
+  const questAndIcon = document.createElement("div");
+
+  const aiIcon = document.createElement("img");
+  aiIcon.src = "../assets/icons/ai-icon.png";
+  aiIcon.alt = "AI Icon";
+  aiIcon.className = "w-6 mr-2";
+
+  const defaultQuestion = document.createElement("p");
+  defaultQuestion.textContent =
+    "Welcome!  The cards have been drawn, and destiny awaits. How may I guide you on your journey?";
+  defaultQuestion.className = "font-poppins text-[16px] font-bold mb-2";
+
+  // Display suggested questions to guide user
+  const suggestedQuestions = [
+    "What action should I take based on this reading?",
+    "How does this reading apply to my love life?",
+  ];
+
+  for (let i = 0; i < suggestedQuestions.length; i++) {
+    const suggestedQDiv = document.createElement("div");
+    const suggestedQuestion = document.createElement("p");
+    suggestedQuestion.textContent = suggestedQuestions[i];
+    suggestedQuestion.className = "font-poppins text-[16px] font-bold mb-2";
+    suggestedQDiv.appendChild(suggestedQuestion);
+  }
+
+  // Add everything to the chat container and set up the UI
+  chatContainer.appendChild(chatHeader);
+  questAndIcon.appendChild(aiIcon);
+  questAndIcon.appendChild(defaultQuestion);
+  chatContainer.appendChild(questAndIcon);
+  chatContainer.appendChild(suggestedQDiv);
 
   chatContainer.innerHTML = `
-    <h2 class="text-gold font-playfair text-2xl font-bold mb-2">Ask the AI</h2>
     <input type="text" id="chat-input" class="w-full p-2 border border-gray-400 rounded-md mb-2 text-black" placeholder="Ask about your reading...">
     <button id="send-message" class="bg-mint-green text-black font-bold py-2 px-4 rounded-md hover:scale-105 transition-transform w-full">Ask</button>
     <div id="chat-output" class="mt-4 text-white max-h-40 overflow-y-auto"></div>
@@ -62,10 +102,11 @@ function openAIChat() {
 
   document.querySelector(".main-container").appendChild(chatContainer);
 
-  const sendMessageButton = chatContainer.querySelector("#send-message");
-  const chatInput = chatContainer.querySelector("#chat-input");
-  const chatOutput = chatContainer.querySelector("#chat-output");
+  // const sendMessageButton = chatContainer.querySelector("#send-message");
+  // const chatInput = chatContainer.querySelector("#chat-input");
+  // const chatOutput = chatContainer.querySelector("#chat-output");
 
+  /*
   sendMessageButton.addEventListener("click", () => {
     const userMessage = chatInput.value.trim();
     if (userMessage) {
@@ -81,11 +122,8 @@ function openAIChat() {
       chatInput.value = ""; // Clear input field
     }
   });
+  */
 }
-*/
-
-// TODO Add the "want to ask about your reading" prompt in a div with a gold background after the tarot reading explanation container is displayed on screen
-// TODO Add the AI chat icon after the tarot reading explanation container is displayed on screen
 
 // TODO When user clicks on chat icon, the chat opens (and they can click on it again to close it). There is the basic question,suggested questions for user, and the text input box.
 
