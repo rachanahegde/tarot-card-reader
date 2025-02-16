@@ -7,6 +7,13 @@ Interactive and responsive tarot card reader website built with HTML, Tailwind C
 -	View three card tarot reading with explanations
 - Users can also ask an AI virtual assistant questions about their tarot reading and it significance.
 
+### AI Chat Functionality Design
+ * Open the AI chat window, which allows users to ask questions about their tarot card reading.
+ * The AI chat window is a fixed position div on the right hand side of the page.
+ * It contains a header, a default AI question, suggested questions, a chat input box, and a send button.
+ * When the user types a question into the chat input box and clicks the send button, the AI response is displayed below the chat input box.
+ * The AI response is currently a simulated response, but it will eventually call the Gemini API to generate a response.
+
 ## Design for Desktop Website 
 <a href="https://www.figma.com/design/cC7KADvQAishRHZr4dk7tm/Read-my-tarot-website-design?node-id=42-306&t=ExTKXeyPMxl7k7tI-0">Link to Figma design files</a>
 Note: The designs are intended to be guidelines so I plan to make changes as I go along because the goal of this project is to become mroe confident with coding in JS and using a popular framework like Tailwind. 
