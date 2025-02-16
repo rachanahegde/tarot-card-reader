@@ -1,5 +1,3 @@
-// TODO Store API key securely
-
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
   if (document.querySelector("#prompt-icon-div")) return;
@@ -53,20 +51,37 @@ function openAIChat() {
   // Create the chat container
   const chatContainer = document.createElement("div");
   chatContainer.id = "ai-chat-container";
+  // Keep chat in a fixed position on right hand side of page
   chatContainer.className =
-    "max-w-md mx-auto bg-light-purple border border-gold p-4 rounded-lg shadow-lg";
+    "w-[350px] bg-light-purple border border-gold p-4 rounded-lg shadow-lg fixed top-20 right-4 flex flex-col items-center text-center";
+
+  // Create the close chat button
+  const closeChatButton = document.createElement("img");
+  closeChatButton.src = "../assets/icons/exit-icon.png";
+  closeChatButton.alt = "Exit Icon";
+  closeChatButton.className =
+    "w-[26px] hover:scale-110 transition-transform cursor-pointer absolute top-2 right-2";
+
+  chatContainer.appendChild(closeChatButton);
+
+  // Add event listener to close the chat window
+  closeChatButton.addEventListener("click", () => {
+    chatContainer.remove();
+  });
 
   const chatHeader = document.createElement("h2");
   chatHeader.textContent = "Ask the Universe";
-  chatHeader.className = "text-gold font-playfair text-2xl font-bold mb-2";
+  chatHeader.className =
+    "text-dark-purple font-playfair text-[24px] font-bold mb-4";
 
   // Create the default AI question with AI icon
   const questAndIcon = document.createElement("div");
+  questAndIcon.className = "flex items-center space-x-2 mb-2";
 
   const aiIcon = document.createElement("img");
   aiIcon.src = "../assets/icons/ai-icon.png";
   aiIcon.alt = "AI Icon";
-  aiIcon.className = "w-6 mr-2";
+  aiIcon.className = "w-[40px]";
 
   const defaultQuestion = document.createElement("p");
   defaultQuestion.textContent =
@@ -79,28 +94,39 @@ function openAIChat() {
     "How does this reading apply to my love life?",
   ];
 
+  const suggestedQDiv = document.createElement("div");
+  suggestedQDiv.className =
+    "flex flex-col items-center text-center mb-2 suggested-questions";
+
+  const suggestedQHeader = document.createElement("h2");
+  suggestedQHeader.textContent = "Suggested Questions";
+  suggestedQHeader.className =
+    "text-dark-purple font-poppins text-[16px] font-bold mb-4";
+  suggestedQDiv.appendChild(suggestedQHeader);
+
   for (let i = 0; i < suggestedQuestions.length; i++) {
-    const suggestedQDiv = document.createElement("div");
     const suggestedQuestion = document.createElement("p");
     suggestedQuestion.textContent = suggestedQuestions[i];
-    suggestedQuestion.className = "font-poppins text-[16px] font-bold mb-2";
+    suggestedQuestion.className =
+      "font-poppins text-[16px] font-bold mb-2 border border-gold p-2 rounded-lg";
     suggestedQDiv.appendChild(suggestedQuestion);
   }
 
-  // Add everything to the chat container and set up the UI
+  // Add everything to the web page and set up the chat container UI
+  document.querySelector(".main-container").appendChild(chatContainer);
   chatContainer.appendChild(chatHeader);
   questAndIcon.appendChild(aiIcon);
   questAndIcon.appendChild(defaultQuestion);
   chatContainer.appendChild(questAndIcon);
   chatContainer.appendChild(suggestedQDiv);
 
+  /*
   chatContainer.innerHTML = `
     <input type="text" id="chat-input" class="w-full p-2 border border-gray-400 rounded-md mb-2 text-black" placeholder="Ask about your reading...">
     <button id="send-message" class="bg-mint-green text-black font-bold py-2 px-4 rounded-md hover:scale-105 transition-transform w-full">Ask</button>
     <div id="chat-output" class="mt-4 text-white max-h-40 overflow-y-auto"></div>
   `;
-
-  document.querySelector(".main-container").appendChild(chatContainer);
+  */
 
   // const sendMessageButton = chatContainer.querySelector("#send-message");
   // const chatInput = chatContainer.querySelector("#chat-input");
@@ -126,6 +152,8 @@ function openAIChat() {
 }
 
 // TODO When user clicks on chat icon, the chat opens (and they can click on it again to close it). There is the basic question,suggested questions for user, and the text input box.
+
+// TODO if user clicks on a suggested question, it will appear in the chat input box
 
 // TODO add the following: the AI chat icon, the send icon, and the exit chat icon
 // TODO make sure the chat box (div?) can scroll so the user can scroll up an down to view old and new messages
