@@ -1,3 +1,6 @@
+// TODO Store API key securely
+
+
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
   if (document.querySelector("#prompt-icon-div")) return;
@@ -32,10 +35,7 @@ function addAIChatPrompt() {
   const mainContainer = document.querySelector(".main-container");
   mainContainer.appendChild(promptIconDiv);
 
-  // Event listeners to open the AI chat when clicking the icon or prompt
-  aiPromptContainer.addEventListener("click", () => {
-    openAIChat();
-  });
+  // Event listeners to open the AI chat when clicking the icon
   aiPromptIcon.addEventListener("click", () => {
     openAIChat();
   });
@@ -108,9 +108,31 @@ function openAIChat() {
     const suggestedQuestion = document.createElement("p");
     suggestedQuestion.textContent = suggestedQuestions[i];
     suggestedQuestion.className =
-      "font-poppins text-[16px] font-bold mb-2 border border-gold p-2 rounded-lg";
+      "font-poppins text-[14px] font-bold mb-2 border border-gold p-2 rounded-lg";
     suggestedQDiv.appendChild(suggestedQuestion);
   }
+
+  // Add div to hold chat input and send button
+  const chatInputDiv = document.createElement("div");
+  chatInputDiv.className = "relative mb-2 w-[320px]";
+
+  // Add the chat input box
+  const chatInput = document.createElement("input");
+  chatInput.type = "text";
+  chatInput.placeholder = "Ask about your reading...";
+  chatInput.className =
+    "w-full p-2 border border-gold rounded-md mb-2 text-black";
+
+  // TODO the chat input box has to grow as user types into it
+
+  // Add the send button
+  const sendButton = document.createElement("img");
+  sendButton.src = "../assets/icons/arrow-icon.png";
+  sendButton.className =
+    "w-[24px] hover:scale-110 transition-transform cursor-pointer absolute right-2 top-2";
+
+  chatInputDiv.appendChild(chatInput);
+  chatInputDiv.appendChild(sendButton);
 
   // Add everything to the web page and set up the chat container UI
   document.querySelector(".main-container").appendChild(chatContainer);
@@ -119,10 +141,10 @@ function openAIChat() {
   questAndIcon.appendChild(defaultQuestion);
   chatContainer.appendChild(questAndIcon);
   chatContainer.appendChild(suggestedQDiv);
+  chatContainer.appendChild(chatInputDiv);
 
   /*
   chatContainer.innerHTML = `
-    <input type="text" id="chat-input" class="w-full p-2 border border-gray-400 rounded-md mb-2 text-black" placeholder="Ask about your reading...">
     <button id="send-message" class="bg-mint-green text-black font-bold py-2 px-4 rounded-md hover:scale-105 transition-transform w-full">Ask</button>
     <div id="chat-output" class="mt-4 text-white max-h-40 overflow-y-auto"></div>
   `;
