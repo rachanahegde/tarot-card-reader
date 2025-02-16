@@ -1,6 +1,5 @@
 // TODO Store API key securely
 
-
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
   if (document.querySelector("#prompt-icon-div")) return;
@@ -45,8 +44,11 @@ function openAIChat() {
   // Prevent multiple chat windows
   if (document.querySelector("#ai-chat-container")) return;
 
-  // TODO Hide the aiPromptContainer while the AI chat is open
-  // TODO display aiPromptContainer while AIchat is closed
+  // Select the AI prompt container and hide it
+  const aiPromptContainer = document.querySelector("#prompt-icon-div");
+  if (aiPromptContainer) {
+    aiPromptContainer.style.display = "none";
+  }
 
   // Create the chat container
   const chatContainer = document.createElement("div");
@@ -64,9 +66,12 @@ function openAIChat() {
 
   chatContainer.appendChild(closeChatButton);
 
-  // Add event listener to close the chat window
+  // Add event listener to close the chat window and show the aiPromptContainer again
   closeChatButton.addEventListener("click", () => {
     chatContainer.remove();
+    if (aiPromptContainer) {
+      aiPromptContainer.style.display = "flex"; // Restore the prompt asking user if they want to chat
+    }
   });
 
   const chatHeader = document.createElement("h2");
@@ -76,7 +81,7 @@ function openAIChat() {
 
   // Create the default AI question with AI icon
   const questAndIcon = document.createElement("div");
-  questAndIcon.className = "flex items-center space-x-2 mb-2";
+  questAndIcon.className = "flex items-center space-x-2 mb-3";
 
   const aiIcon = document.createElement("img");
   aiIcon.src = "../assets/icons/ai-icon.png";
@@ -117,13 +122,18 @@ function openAIChat() {
   chatInputDiv.className = "relative mb-2 w-[320px]";
 
   // Add the chat input box
-  const chatInput = document.createElement("input");
-  chatInput.type = "text";
+  const chatInput = document.createElement("textarea");
+  chatInput.id = "chat-input";
   chatInput.placeholder = "Ask about your reading...";
+  chatInput.rows = 1; // Start with a single row
   chatInput.className =
-    "w-full p-2 border border-gold rounded-md mb-2 text-black";
+    "w-full p-2 border border-gold rounded-md text-black resize-none overflow-y-auto max-h-[90px]";
 
-  // TODO the chat input box has to grow as user types into it
+  // Automatically resize textarea as user types
+  chatInput.addEventListener("input", function () {
+    this.style.height = "auto"; // Reset height
+    this.style.height = Math.min(this.scrollHeight, 90) + "px"; // Expand but limit to 90px
+  });
 
   // Add the send button
   const sendButton = document.createElement("img");
@@ -142,6 +152,8 @@ function openAIChat() {
   chatContainer.appendChild(questAndIcon);
   chatContainer.appendChild(suggestedQDiv);
   chatContainer.appendChild(chatInputDiv);
+
+  // TODO when user click on send button the message has to send to the API
 
   /*
   chatContainer.innerHTML = `
