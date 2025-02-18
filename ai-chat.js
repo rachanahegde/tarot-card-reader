@@ -55,7 +55,7 @@ function openAIChat() {
   chatContainer.id = "ai-chat-container";
   // Keep chat in a fixed position on right hand side of page
   chatContainer.className =
-    "w-[350px] bg-light-purple border border-gold p-4 rounded-lg shadow-lg fixed top-20 right-4 flex flex-col items-center text-center";
+    "w-[350px] bg-light-purple border border-gold p-4 rounded-lg shadow-lg fixed top-80 right-4 flex flex-col items-center text-center";
 
   // Create the close chat button
   const closeChatButton = document.createElement("img");
@@ -91,7 +91,8 @@ function openAIChat() {
   const defaultQuestion = document.createElement("p");
   defaultQuestion.textContent =
     "Welcome!  The cards have been drawn, and destiny awaits. How may I guide you on your journey?";
-  defaultQuestion.className = "font-poppins text-[16px] font-bold mb-2";
+  defaultQuestion.className =
+    "font-poppins text-[16px] font-bold mb-2 bg-medium-purple border border-dark-purple p-2 rounded-lg";
 
   // Display suggested questions to guide user
   const suggestedQuestions = [
@@ -153,13 +154,18 @@ function openAIChat() {
   chatContainer.appendChild(suggestedQDiv);
   chatContainer.appendChild(chatInputDiv);
 }
-// TODO process user inputs and prompt the AI w/ API, generate AI response using API, display the AI response => repeat in a loop as long as user enters new questions => tell user that their quota of free questions is up after they ask 10 questions in a day
+// TODO add a background to the AI messages to differentiate them
+
+// TODO add a different color bbackground to the messages that the user sends
 
 // TODO when user click on send button, extract the user input.
 // TODO display the user message as the next message in the chat
 // TODO send the message to the API and get the response
 // TODO display the response with the AI icon beside it
 
+// TODO ---------- SAFE GUARDS FOR PREVENTING MISUSE OF AI
+
+// TODO process user inputs and prompt the AI w/ API, generate AI response using API, display the AI response => repeat in a loop as long as user enters new questions
 // TODO if user clicks on a suggested question, it will appear in the chat input box
 
 // TODO make sure the chat box (div?) can scroll so the user can scroll up an down to view old and new messages
