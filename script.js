@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Append the Exit button wrapper below the explanation
     explanationContainer.appendChild(buttonWrapper);
 
-    // Add the AI Chat Prompt after the explanation
-    addAIChatPrompt();
+    // Add the AI Chat Prompt after the explanation (This feature will NOT be implemented.)
+    // addAIChatPrompt();
   }
 
   // Create the interpret cards button
