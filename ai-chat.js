@@ -1,4 +1,7 @@
+// import { GoogleGenerativeAI } from "@google/generative-ai";
+
 // TODO Store API key securely
+const GEMINI_API_KEY = "";
 
 function addAIChatPrompt() {
   // Check if the prompt already exists to avoid duplicates
@@ -155,13 +158,101 @@ function openAIChat() {
   chatContainer.appendChild(chatInputDiv);
 }
 
+// Setting up the AI prompting
+// Initialize Gemini AI with your API key
+// TODO Set up environment variables
+// const apiKey = process.env.GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({
+  model: "gemini-2.0-flash",
+});
+
+// Define generation settings
+const generationConfig = {
+  temperature: 1,
+  topP: 0.95,
+  topK: 40,
+  maxOutputTokens: 981,
+  responseMimeType: "text/plain",
+};
+
+// Initialize an empty chat session
+const chatSession = model.startChat({
+  generationConfig,
+  history: [],
+});
+
+async function sendMessageToAI() {
+  const chatInput = document.querySelector("#chat-input");
+  const userMessage = chatInput.value.trim();
+
+  if (!userMessage) return; // Don't send empty messages
+
+  // Display user message in chat
+  displayMessage(userMessage, "user");
+
+  // Clear input field
+  chatInput.value = "";
+
+  try {
+    // Send message to Gemini AI
+    const aiResponse = await fetchGeminiResponse(userMessage);
+
+    // Display AI response in chat
+    displayMessage(aiResponse, "ai");
+  } catch (error) {
+    console.error("Error fetching AI response:", error);
+    displayMessage("Sorry, I couldn't get a response. Please try again.", "ai");
+  }
+}
+
+// Function to fetch response from Gemini AI
+async function fetchGeminiResponse(userMessage) {
+  try {
+    const result = await chatSession.sendMessage(userMessage);
+    return result.response.text() || "I'm not sure how to respond.";
+  } catch (error) {
+    console.error("Error communicating with Gemini API:", error);
+    return "Error processing your request.";
+  }
+}
+
+// Function to display messages in chat
+function displayMessage(text, sender) {
+  const chatContainer = document.querySelector("#ai-chat-container");
+  const messageDiv = document.createElement("div");
+
+  messageDiv.className = `p-2 rounded-lg mb-2 w-full max-w-[80%] ${
+    sender === "user"
+      ? "bg-medium-purple text-white self-end"
+      : "bg-light-purple text-dark-purple self-start"
+  }`;
+
+  messageDiv.textContent = text;
+  chatContainer.appendChild(messageDiv);
+
+  // Scroll to the latest message
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+}
+
+// Attach event listener to the send button
+function addSendButtonListener() {
+  const sendButton = document.querySelector("#chat-input").nextSibling;
+
+  sendButton.addEventListener("click", sendMessageToAI);
+}
+
+// Call this function after rendering the chat UI
+addSendButtonListener();
+
+// TODO ------------------------ UPCOMING TASKS
 // TODO add a different color background to the messages that the user sends
 
 // TODO when user click on send button, extract the user input.
 // TODO send the message to the API and get the response
 
 // TODO display the user message as the next message in the chat
-// TODO display the response with the AI icon beside it
+// TODO display the AI response with the AI icon beside it
 
 // TODO ---------- SAFE GUARDS FOR PREVENTING MISUSE OF AI
 // TODO Limit user message length
