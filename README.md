@@ -1,18 +1,18 @@
 # Tarot Card Reader
 Interactive and responsive tarot card reader website built with HTML, Tailwind CSS 4, and vanilla JS. The website is designed in Figma. 
 
-## Features (currently building) 
-- Users can select 3 tarot cards.
--	Card Flip Animation – Clicking a card reveals its meaning.
+## Features
+- Users can select 3 tarot cards (with card flip animation).
 -	View three card tarot reading with explanations
-- Users can also ask an AI virtual assistant questions about their tarot reading and it significance.
 
-### AI Chat Functionality Design
+## Ideas for extending this project
+I did not have time to finish building the AI chat even though I have included it in the design files below. Ideally, users will be able to ask an AI virtual assistant questions about their tarot reading and it significance. I chose not to finish this aspect of the project because it required learning to work with Node JS which I haven't learned yet. Without adding more complexity to this project (i.e. in the form of using Node JS, etc.), I wouldn't be able to securely make API calls and this was beyond the scope of what I had planned. 
+
+### AI Chat Functionality Design (for future additions) 
  * Open the AI chat window, which allows users to ask questions about their tarot card reading.
  * The AI chat window is a fixed position div on the right hand side of the page.
  * It contains a header, a default AI question, suggested questions, a chat input box, and a send button.
  * When the user types a question into the chat input box and clicks the send button, the AI response is displayed below the chat input box.
- * The AI response is currently a simulated response, but it will eventually call the Gemini API to generate a response.
 
 ## Design for Desktop Website 
 <a href="https://www.figma.com/design/cC7KADvQAishRHZr4dk7tm/Read-my-tarot-website-design?node-id=42-306&t=ExTKXeyPMxl7k7tI-0">Link to Figma design files</a>
@@ -42,31 +42,28 @@ I chose to build out this version because it provides more insights into how tar
 <img src="Design/Mobile_Design_7.png" width="250px">  <img src="Design/Mobile_Design_with_AI_Chat.png" width="250px">
 
 
-## To Do
- -	~Design in Figma – for phone and desktop~
- - ~Flowchart with decision tree for app features~
- - ~Finalise design files~
- - ~Finish building home page with HTML and Tailwind for desktop (minimally responsive with flex)~
-
--	Generate the card art for all the tarot cards and the associated description
--	Save pathways to card art and descriptions in JSON data file
-- Make it responsive for mobile and tablet
+## Completed To Do List
+ -	Design in Figma – for phone and desktop
+ - Flowchart with decision tree for app features
+ - Finalise design files
+ - Finish building home page with HTML and Tailwind for desktop (minimally responsive with flex)
+ - Generate the card art for all the tarot cards and the associated description
+ - Save pathways to card art and descriptions in JSON data file
+ - Build the tarot reading page using javascript and CSS for animations and DOM changes
+ - Display three card reading with explanation associated with each card below
+ - Make website responsive for mobile and tablet
 
 ## Implementation
--	Load tarot card data from a JSON file.
--	Randomise order of cards (not visible to user) and then show cards to user
-
-## Technologies
+Technologies used:
 -	HTML
 -	Tailwind (CSS framework for responsiveness)
 -	Vanilla JS – logic for shuffling, selecting + displaying card meanings, also interactions with AI API
 -	JSON – storing tarot card data
 
-## My process and what I learned (update this when I'm finished) 
+## My process and what I learned 
 -	UI/UX Design
 -	Responsive design 
 -	DOM manipulation, event handling, and animations
-
 
 ## Extra features to add in future versions
 🔮 Users can choose from different types of tarot readings  
@@ -82,4 +79,6 @@ I chose to build out this version because it provides more insights into how tar
 - stars by Faith Henke from <a href="https://thenounproject.com/browse/icons/term/stars/" target="_blank" title="stars Icons">Noun Project</a> (CC BY 3.0)
 - Chatbot by kumakamu from <a href="https://thenounproject.com/browse/icons/term/chatbot/" target="_blank" title="Chatbot Icons">Noun Project</a> (CC BY 3.0)
 - Ouroboros by Eucalyp from <a href="https://thenounproject.com/browse/icons/term/ouroboros/" target="_blank" title="Ouroboros Icons">Noun Project</a> (CC BY 3.0)
+- <a target="_blank" href="https://icons8.com/icon/101367/right-button">Right Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- <a target="_blank" href="https://icons8.com/icon/23543/close-window">Exit</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
