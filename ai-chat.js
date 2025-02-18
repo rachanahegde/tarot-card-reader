@@ -154,16 +154,25 @@ function openAIChat() {
   chatContainer.appendChild(suggestedQDiv);
   chatContainer.appendChild(chatInputDiv);
 }
-// TODO add a background to the AI messages to differentiate them
 
-// TODO add a different color bbackground to the messages that the user sends
+// TODO add a different color background to the messages that the user sends
 
 // TODO when user click on send button, extract the user input.
-// TODO display the user message as the next message in the chat
 // TODO send the message to the API and get the response
+
+// TODO display the user message as the next message in the chat
 // TODO display the response with the AI icon beside it
 
 // TODO ---------- SAFE GUARDS FOR PREVENTING MISUSE OF AI
+// TODO Limit user message length
+// TODO AI response length limit - restrict to 100 words
+// TODO Cooldown between messages	- 5 second delay per message
+// TODO Content filtering - profanity and spam detection
+// TODO prevent prompt injection with System message restrictions
+// TODO error handling - Show friendly fallback responses
+// TODO if user asks for non-tarot questions, respond with "I can only answer tarot questions!"
+// TODO limit user message length to 5 per session and 10 total in one day
+//
 
 // TODO process user inputs and prompt the AI w/ API, generate AI response using API, display the AI response => repeat in a loop as long as user enters new questions
 // TODO if user clicks on a suggested question, it will appear in the chat input box
