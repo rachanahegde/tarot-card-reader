@@ -15,19 +15,25 @@ I also wanted to improve the design for the mobile UI because it's a little more
  * It contains a header, a default AI question, suggested questions, a chat input box, and a send button.
  * When the user types a question into the chat input box and clicks the send button, the AI response is displayed below the chat input box.
 
+## Screenshots of Desktop Website
+
+
+## Screenshots of Mobile Website
+
+
 ## Design for Desktop Website 
 <a href="https://www.figma.com/design/cC7KADvQAishRHZr4dk7tm/Read-my-tarot-website-design?node-id=42-306&t=ExTKXeyPMxl7k7tI-0">Link to Figma design files</a>
 Note: The designs are intended to be guidelines so I plan to make changes as I go along because the goal of this project is to become mroe confident with coding in JS and using a popular framework like Tailwind. 
 
-### Landing page version 1
+### UI Design: Landing page version 1
 <img src="Design/Landing_Page_v1.png" width="600px">
 
-### Landing page version 2 
+### UI Design: Landing page version 2 
 I chose to build out this version because it provides more insights into how tarot readings work and guidance for people who are less familiar with how to proceed. 
 
 <img src="Design/Landing_Page_v2.png" width="600px">
 
-### Tarot reading website pages (including the design for AI chat)
+### UI design for tarot reading website pages (including the design for AI chat)
 
 <img src="Design/Tarot_reading_page_1.png" width="600px">
 <img src="Design/Tarot_reading_page_2.png" width="600px">
@@ -52,7 +58,7 @@ I chose to build out this version because it provides more insights into how tar
  - Save pathways to card art and descriptions in JSON data file
  - Build the tarot reading page using javascript and CSS for animations and DOM changes
  - Display three card reading with explanation associated with each card below
- - Make website responsive for mobile and tablet
+ - Make website responsive for mobile and tablet with flexbox and CSS grid within Tailwind
 
 ## Implementation
 Technologies used:
