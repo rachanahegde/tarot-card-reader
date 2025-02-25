@@ -18,7 +18,7 @@ I also wanted to improve the design for the mobile UI because it's a little more
 ## Screenshots of Desktop Website
 <img src="screenshots/desktop-website/desktop-landing-page.jpeg" width="600px">
 <img src="screenshots/desktop-website/desktop-tarot-reading-start.jpeg" width="600px">
-<img src="screenshots/desktop-website/desktop-tarot-cards-selected" width="600px">
+<img src="screenshots/desktop-website/desktop-tarot-cards-selected.jpeg" width="600px">
 <img src="screenshots/desktop-website/desktop-tarot-reading-explanations.jpeg" width="600px">
 
 
