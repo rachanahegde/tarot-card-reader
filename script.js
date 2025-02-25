@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Create div for displaying selected cards
   const selectedCardsContainer = document.createElement("div");
-  selectedCardsContainer.className = "flex justify-center mt-10 space-x-10";
+  selectedCardsContainer.className =
+    "flex justify-center mt-10 ml-2 sm:ml-0 space-x-2 md:space-x-10";
   mainContainer.insertBefore(selectedCardsContainer, cardContainer);
 
   // List of cards selected by user
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   cards.forEach((cardData, index) => {
     const card = document.createElement("div");
     card.className =
-      "card w-[80px] h-[120px] -ml-8 hover:scale-110 hover:z-20 transition-transform duration-300";
+      "card w-[50px] h-[75px] sm:w-[70px] sm:h-[105px] md:w-[80px] md:h-[120px] -ml-4 sm:-ml-8 hover:scale-90 md:hover:scale-110 hover:z-20 transition-transform duration-300";
     card.dataset.index = index;
 
     const cardInner = document.createElement("div");
@@ -78,21 +79,22 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Card Name (Above the card)
         const cardName = document.createElement("p");
         cardName.textContent = cardData.name;
-        cardName.className = "font-playfair text-[28px] font-bold text-gold";
+        cardName.className =
+          "font-playfair text-[18px] sm:text-[20px] md:text-[28px] font-bold text-gold text-center";
 
         // Selected Card Image
         const selectedCard = document.createElement("img");
         selectedCard.src = cardData.filePath;
         selectedCard.alt = cardData.name;
         selectedCard.className =
-          "w-[200px] transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg shimmer";
+          "w-[100px] md:w-[160px] lg:w-[200px] transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg shimmer";
 
         // Position Label (Below the card)
         const positionLabel = document.createElement("p");
         const positions = ["Past", "Present", "Future"];
         positionLabel.textContent = positions[cardIndex];
         positionLabel.className =
-          "font-poppins text-[20px] font-semibold text-mint-green";
+          "font-poppins text-[18px] sm:text-[20px] font-semibold text-mint-green";
 
         // Append the card name, image, and position label
         cardWrapper.appendChild(cardName);
@@ -119,7 +121,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       explanationContainer = document.createElement("div");
       explanationContainer.id = "explanation-container";
       explanationContainer.className =
-        "border-2 border-gold p-4 mt-3 mb-10 rounded-lg text-white max-w-[600px] mx-auto";
+        "border-2 border-gold p-4 mt-3 mb-10 rounded-lg text-white max-w-[320px] md:max-w-[600px] mx-auto";
       mainContainer.appendChild(explanationContainer);
     }
 
