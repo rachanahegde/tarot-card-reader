@@ -22,13 +22,16 @@ I also wanted to improve the design for the mobile UI because it's a little more
 <img src="screenshots/desktop-website/desktop-tarot-reading-explanations.jpeg" width="500px">
 
 ## Screenshots of Mobile Website
-<img src="screenshots/iphone-website/iphone-landing-page.jpeg" width="400px">
-<img src="screenshots/iphone-website/iphone-tarot-reading-start.jpeg" width="400px">
-<img src="screenshots/iphone-website/iphone-tarot-cards-selected.jpeg" width="400px">
-<img src="screenshots/iphone-website/iphone-tarot-reading-explanations.jpeg" width="400px">
+<img src="screenshots/iphone-website/iphone-landing-page.jpeg" width="250px">
+<img src="screenshots/iphone-website/iphone-tarot-reading-start.jpeg" width="250px">
+<img src="screenshots/iphone-website/iphone-tarot-cards-selected.jpeg" width="250px">
+<img src="screenshots/iphone-website/iphone-tarot-reading-explanations.jpeg" width="250px">
 
 ## Screenshots of iPad Website
-
+<img src="screenshots/ipad-website/ipad-landing-page.jpeg" width="400px">
+<img src="screenshots/ipad-website/ipad-tarot-reading-start.jpeg" width="400px">
+<img src="screenshots/ipad-website/ipad-tarot-cards-selected.jpeg" width="400px">
+<img src="screenshots/ipad-website/ipad-tarot-reading-explanations.jpeg" width="400px">
 
 ## Design for Desktop Website 
 <a href="https://www.figma.com/design/cC7KADvQAishRHZr4dk7tm/Read-my-tarot-website-design?node-id=42-306&t=ExTKXeyPMxl7k7tI-0">Link to Figma design files</a>
