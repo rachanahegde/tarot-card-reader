@@ -18,17 +18,18 @@
     <body>
         <!-- Background gradient dark purple to black from top to bottom -->
          <!-- Note: added relative to make sure #prompt-icon-div will be relative to main container later -->
-        <div class="main-container relative bg-gradient-to-b from-purple-900 to-black min-h-screen flex flex-col">
+        <div class="main-container relative bg-gradient-to-b from-purple-900 to-black min-h-screen flex flex-col overflow-y-auto">
+
             <!-- Navigation bar -->
-            <div class="flex items-center justify-between w-full px-6 pt-3">
+            <div class="flex flex-row items-center space-y-0 px-6 pt-3">
                 <!-- Website icon and name (left aligned) -->
                 <div class="flex items-center space-x-3">
-                    <div class="pt-3">
-                        <img class="w-16 ml-3" src="../assets/icons/crystal-ball-icon.png" alt="Tarot card reader icon">
+                    <div class="pt-3 padding">
+                        <img class="w-[40px] sm:w-[70px] ml-3" src="../assets/icons/crystal-ball-icon.png" alt="Tarot card reader icon">
                     </div>
-                    <h1 class="font-playfair text-[35px] font-bold italic text-gold"> read my tarot </h1>
+                    <h1 class="font-playfair text-[28px] sm:text-[35px] font-bold italic text-gold sm:text-left"> read my tarot </h1>
                 </div>
-                <p class="font-poppins text-[16px] font-bold text-mint-green"><a href="index.html">Home</a></p>
+                <p class="font-poppins text-[16px] sm:text-[18px] font-bold text-mint-green ml-15 md:ml-80 lg:ml-240"><a href="index.html">Home</a></p>
             </div>
 
             <h1 class="font-poppins text-[20px] ml-4 mr-4 md:text-[23px] lg:text-[25px] font-bold text-light-purple text-center mt-6 mb-0 md:mb-4 lg:mb-6" id="think-of-q">
@@ -38,7 +39,7 @@
 
             <!-- Display 78 card backs for user to choose from --> 
             <!-- Card backs are inserted dynamically with JS -->
-            <div class="card-container flex flex-wrap justify-center items-center p-6 ml-15 mr-10 md:ml-20 md:mr-20">
+            <div class="card-container flex flex-wrap justify-center items-center p-4 sm:p-6 ml-8 mr-10 md:ml-20 md:mr-20">
             </div>
         </div>
         <!-- <script src="../ai-chat.js" defer></script> -->
