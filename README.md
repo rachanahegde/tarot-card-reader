@@ -30,7 +30,6 @@ I also wanted to improve the design for the mobile UI because it's a little more
 ## Screenshots of iPad Website
 <img src="screenshots/ipad-website/ipad-landing-page.jpeg" width="400px">
 <img src="screenshots/ipad-website/ipad-tarot-reading-start.jpeg" width="400px">
-<img src="screenshots/ipad-website/ipad-tarot-cards-selected.jpeg" width="400px">
 <img src="screenshots/ipad-website/ipad-tarot-reading-explanations.jpeg" width="400px">
 
 ## Design for Desktop Website 
