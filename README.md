@@ -5,8 +5,9 @@ Interactive and responsive tarot card reader website built with HTML, Tailwind C
 - Users can select 3 tarot cards (with card flip animation).
 -	View three card tarot reading with explanations
 
-## Ideas for extending this project
+## Ideas for extending and improving this project
 I did not have time to finish building the AI chat even though I have included it in the design files below. Ideally, users will be able to ask an AI virtual assistant questions about their tarot reading and it significance. I chose not to finish this aspect of the project because it required learning to work with Node JS which I haven't learned yet. Without adding more complexity to this project (i.e. in the form of using Node JS, etc.), I wouldn't be able to securely make API calls and this was beyond the scope of what I had planned. 
+I also wanted to improve the design for the mobile UI because it's a little more cluttered than I intended. I also recognise that some of the card images aren't precisely the same size as each other which can affect the layout of the page in minor ways. However, due to time cosntraints, I felt it would be best to move on. 
 
 ### AI Chat Functionality Design (for future additions) 
  * Open the AI chat window, which allows users to ask questions about their tarot card reading.
