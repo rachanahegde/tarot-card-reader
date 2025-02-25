@@ -1,5 +1,5 @@
 # Tarot Card Reader
-Interactive and responsive tarot card reader website built with HTML, Tailwind CSS 4, and vanilla JS. The website is designed in Figma. 
+Interactive and responsive tarot card reader website built with HTML, Tailwind CSS 4, and vanilla JS. The website is designed in Figma and tested using Responsively. 
 
 ## Features
 - Users can select 3 tarot cards (with card flip animation).
