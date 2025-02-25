@@ -78,10 +78,8 @@ Technologies used:
 -	Vanilla JS – logic for shuffling, selecting + displaying card meanings, also interactions with AI API
 -	JSON – storing tarot card data
 
-## My process and what I learned 
--	UI/UX Design
--	Responsive design 
--	DOM manipulation, event handling, and animations
+## Reflections on the learning process & challenges faced
+The main challenge that I faced was getting to grips with the Tailwind framework and understanding how to customise the default Tailwind theme in input.css. I was also confused by the process of adding animations using solely Tailwind and switched to writing pure CSS in order to implement the card flip animations. In terms of the user interface, my goal was to design a simple but engaging platform with colors of purple and gold which evoke the mysticism of tarot. I also chose symbols associated with tarot including the crystal ball which is the main icon at the top of the page. It was exciting to work on my UI design skills again and I used Figma to create the design files that guided my coding project. I also reviewed Javascript concepts such as DOM manipulation and event handling and learned how to implement responsive design with Tailwind breakpoints. I chose not to add any custom breakpoints because it seemed unnnecessary since the Tailwind breakpoints were already designed to apply to a variety of devices. When testing the website, I used Responsively on my Macbook Pro to evaluate the website's appearance on the following devices: Macbook Pro, iPhone 15 Pro, iPhone 16 Plus, and iPad. I believe these four devices encompass a range of screen sizes and the testing conducted indicates that the website should also function equally well on non Apple devices with similar screen sizes. 
 
 ## Extra features to add in future versions
 🔮 Users can choose from different types of tarot readings  
