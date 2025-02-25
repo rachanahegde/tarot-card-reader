@@ -16,14 +16,16 @@ I also wanted to improve the design for the mobile UI because it's a little more
  * When the user types a question into the chat input box and clicks the send button, the AI response is displayed below the chat input box.
 
 ## Screenshots of Desktop Website
-<img src="screenshots/desktop-website/desktop-landing-page.jpeg" width="600px">
-<img src="screenshots/desktop-website/desktop-tarot-reading-start.jpeg" width="600px">
-<img src="screenshots/desktop-website/desktop-tarot-cards-selected.jpeg" width="600px">
-<img src="screenshots/desktop-website/desktop-tarot-reading-explanations.jpeg" width="600px">
-
+<img src="screenshots/desktop-website/desktop-landing-page.jpeg" width="500px">
+<img src="screenshots/desktop-website/desktop-tarot-reading-start.jpeg" width="500px">
+<img src="screenshots/desktop-website/desktop-tarot-cards-selected.jpeg" width="500px">
+<img src="screenshots/desktop-website/desktop-tarot-reading-explanations.jpeg" width="500px">
 
 ## Screenshots of Mobile Website
-
+<img src="screenshots/iphone-website/iphone-landing-page.jpeg" width="400px">
+<img src="screenshots/iphone-website/iphone-tarot-reading-start.jpeg" width="400px">
+<img src="screenshots/iphone-website/iphone-tarot-cards-selected.jpeg" width="400px">
+<img src="screenshots/iphone-website/iphone-tarot-reading-explanations.jpeg" width="400px">
 
 ## Screenshots of iPad Website
 
